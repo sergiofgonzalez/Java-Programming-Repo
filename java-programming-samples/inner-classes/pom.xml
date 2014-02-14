@@ -22,6 +22,7 @@
 	<modules>
 		<module>001-static-nested-classes</module>
 		<module>002-member-inner-classes</module>
+		<module>003-local-inner-classes</module>
 	</modules>	   
 
 </project>
