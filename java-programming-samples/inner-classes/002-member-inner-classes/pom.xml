@@ -17,7 +17,7 @@
 		Keywords:
 			+ Member Inner Classes
 
-		This project includes a couple of very simple examples involving static nested classes:
+		This project includes a couple of very simple examples involving member inner classes:
 	
 		MemberInnerClassTest1:
 			Demonstrates how to instantiate a Member Inner Class.
