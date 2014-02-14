@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>inner-classes</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-member-inner-classes</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 002-member-inner-classes</name>
+	<description>
+		Keywords:
+			+ Static Nested Classes
+
+		This project includes a couple of very simple examples involving static nested classes:
+	
+		StaticNestedTestRunner:
+			Demonstrates how an static nested class can access private static members of the outer class,
+			and how an static class can be instantiated without instantiating its enclosing class.
+			
+		StaticNestedTestRunner:
+			Demonstrates how an static nested class can define a member whose name clashes with
+			a member name of the enclosing class, and how you can reference the outer class member
+			when this happens.
+			
+		The classes include simple runners that can be executed as java programs.
+	</description>
+</project>
+
