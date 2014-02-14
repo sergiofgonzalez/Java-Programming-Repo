@@ -15,18 +15,17 @@
     <name>|-- 002-member-inner-classes</name>
 	<description>
 		Keywords:
-			+ Static Nested Classes
+			+ Member Inner Classes
 
 		This project includes a couple of very simple examples involving static nested classes:
 	
-		StaticNestedTestRunner:
-			Demonstrates how an static nested class can access private static members of the outer class,
-			and how an static class can be instantiated without instantiating its enclosing class.
+		MemberInnerClassTest1:
+			Demonstrates how to instantiate a Member Inner Class.
 			
-		StaticNestedTestRunner:
-			Demonstrates how an static nested class can define a member whose name clashes with
-			a member name of the enclosing class, and how you can reference the outer class member
-			when this happens.
+		MemberInnerClassTest2:
+			Demonstrates how you can hide your implementation using member inner classes.
+			In particular, by declaring the inner class as private a client programmer
+			will never have access to the implementation. 
 			
 		The classes include simple runners that can be executed as java programs.
 	</description>
