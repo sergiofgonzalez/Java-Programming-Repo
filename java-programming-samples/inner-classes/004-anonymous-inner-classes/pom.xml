@@ -28,6 +28,11 @@
 			In order to do that, the Sequence includes a method that returns
 			an instance of the Selector interface and the implementations is done
 			there.
+			
+		LoggerTestRunner:
+			This class demonstrates how an inner class can extend a class, and not
+			only an interface. Besides it also demonstrates how you can pass an
+			argument to the anonymous inner class.
 		
 		The classes include simple runners that can be executed as java program.
 	</description>
