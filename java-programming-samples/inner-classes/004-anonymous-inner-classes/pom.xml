@@ -18,12 +18,18 @@
 			+ Anonymous Inner Classes
 
 		AnonymousInnerClassTest1:
-			This project includes a very simple example involving an anonymous inner class
+			This class includes a very simple example involving an anonymous inner class
 			that is created in the definition of a field member class which happens to be
 			an interface:
 	
-			
-		The class include a simple runner that can be executed as java program.
+		Sequence:
+			This class demonstrates how to implement an iterator-ish interface named
+			Selector to iterate over a sequence of objects.
+			In order to do that, the Sequence includes a method that returns
+			an instance of the Selector interface and the implementations is done
+			there.
+		
+		The classes include simple runners that can be executed as java program.
 	</description>
 </project>
 
