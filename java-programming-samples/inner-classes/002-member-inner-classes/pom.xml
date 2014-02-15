@@ -27,6 +27,10 @@
 			In particular, by declaring the inner class as private a client programmer
 			will never have access to the implementation. 
 			
+		Sequence:
+			Another example of a member inner class. It is defined a Sequence of objects
+			that includes a member inner class that implements an Iterator named Selector. 
+			
 		The classes include simple runners that can be executed as java programs.
 	</description>
 </project>
