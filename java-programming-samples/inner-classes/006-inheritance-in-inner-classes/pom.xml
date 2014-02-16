@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>inner-classes</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>006-inheritance-in-inner-classes</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 006-inheritance-in-inner-classes</name>
+	<description>
+		Keywords:
+			+ Inner Classes
+			+ Inheritance
+
+		InheritInner:
+			This class demonstrates the syntax to inherit from an inner class. It also
+			shows how you're forced to provide a constructor in the subclass that
+			calls the constructor of the outer class you're inheriting from.
+		
+		LoggerTest:
+			Demonstrates the peculiarities of inheritance with inner classes in an 
+			example that involves several implementations of Logger.
+			
+		The classes include simple runners that can be executed as java program.
+	</description>
+</project>
+

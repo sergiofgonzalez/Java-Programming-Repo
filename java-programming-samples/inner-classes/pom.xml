@@ -25,6 +25,7 @@
 		<module>003-local-inner-classes</module>
 		<module>004-anonymous-inner-classes</module>
 		<module>005-callbacks</module>
+		<module>006-inheritance-in-inner-classes</module>
 	</modules>	   
 
 </project>
