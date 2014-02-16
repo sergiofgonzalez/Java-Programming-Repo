@@ -14,7 +14,7 @@
     <artifactId>inner-classes</artifactId>
     
     <name>|- inner-classes</name>
-    <description>Inner Classes: Thinking in Java</description>
+    <description>Inner Classes</description>
     
 	<packaging>pom</packaging>
 	
