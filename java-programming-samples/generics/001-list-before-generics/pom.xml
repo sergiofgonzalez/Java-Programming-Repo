@@ -16,14 +16,16 @@
 	<description>
 		Keywords:
 			+ Generics
+			+ Diamond Language
 
-		This project includes a very simple example involving a classes without 
+		This project includes a very simple example involving a class with and without 
 		generics.
 			
 		ListWithoutGenerics:
 			Demonstrates how a List without generics needs a cast to the right type of
 			object each time you retrieve an item from the List, and what's worst
 			lets you add any kind of object to the List (e.g. Strings and Integers).
+			Then, the same example is done with a generic List.
 			
 		The class includes a simple runner that can be executed as java programs.
 	</description>
