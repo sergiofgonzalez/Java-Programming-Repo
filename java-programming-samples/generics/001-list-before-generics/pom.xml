@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>generics</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>001-list-before-generics</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 001-list-before-generics</name>
+	<description>
+		Keywords:
+			+ Generics
+
+		This project includes a very simple example involving a classes without 
+		generics.
+			
+		ListWithoutGenerics:
+			Demonstrates how a List without generics needs a cast to the right type of
+			object each time you retrieve an item from the List, and what's worst
+			lets you add any kind of object to the List (e.g. Strings and Integers).
+			
+		The class includes a simple runner that can be executed as java programs.
+	</description>
+</project>
+
