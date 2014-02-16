@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>inner-classes</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>005-callbacks</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 005-callbacks</name>
+	<description>
+		TODO
+		Keywords:
+			+ Callback
+			+ Closure
+
+		Callbacks:
+			This class demonstrates how to implement a callback to perform an action
+			on an object (Callee) through an external object (Caller) that maintains
+			a reference to the former object (Callee).
+			In this case, a stupid Incrementable interface is defined. The Callee
+			object implements this interface directly, but also defines a private 
+			member inner class (Closure) that also implements this interface and a 
+			public method that returns a reference to this closure.
+			The Caller object maintains a reference to an Incrementable implementation
+			that can be used to increment the external object when needed.
+		
+		The classes include simple runners that can be executed as java program.
+	</description>
+</project>
+
