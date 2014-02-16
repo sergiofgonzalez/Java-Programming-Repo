@@ -30,6 +30,10 @@
 			The Caller object maintains a reference to an Incrementable implementation
 			that can be used to increment the external object when needed.
 		
+		AnonymousCallbacks:
+			The same example as Callbacks but using an anonymous inner class as a 
+			closure instead of an explicit member inner class.
+		
 		The classes include simple runners that can be executed as java program.
 	</description>
 </project>
