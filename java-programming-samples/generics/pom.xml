@@ -21,6 +21,7 @@
 		    
 	<modules>
 		<module>001-list-before-generics</module>
+		<module>002-generics-wildcard</module>
 	</modules>	   
 
 </project>
