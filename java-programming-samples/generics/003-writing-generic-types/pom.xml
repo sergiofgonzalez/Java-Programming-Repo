@@ -23,9 +23,20 @@
 			
 		Point:
 			Creates a parameterized Point class that represents a point in space.
-			The parameter is not bound, and therefore accepts any type of argument. 		
+			The parameter is not bound, and therefore accepts any type of argument.
+			
+		PointXY:
+			Creates a parameterized Point class that represents a point in space.
+			The parameter is not bound, and therefore accepts any type of argument.
+			
+		TwoTuple:
+			Creates a parameterized type to represent a Pair.
+			
+		ThreeTuple:
+			Creates a parameterized type representing a 3-tuple using inheritance on 
+			TwoTuple class.			 		
 		
-		The classes includes simple runners that can be executed as java programs.
+		The classes includes simple runners and JUnits.
 	</description>
 </project>
 
