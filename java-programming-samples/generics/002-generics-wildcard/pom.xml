@@ -17,6 +17,7 @@
 		Keywords:
 			+ Generics
 			+ The wildcard ? character
+			+ ? extends
 
 		This project includes some very simple examples involving the wildcard 
 		character.
