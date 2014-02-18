@@ -18,13 +18,20 @@
 			+ Generics
 			+ The wildcard ? character
 
-		This project includes a very simple example involving the wildcard character.
+		This project includes some very simple examples involving the wildcard 
+		character.
 			
 		AllowedTypeTests:
 			Demonstrates how to use the wildcard character when using generics. The ?
 			character lets you declare a method that accept any parameterized type.		
+		
+		BoundedWildcardTest:
+			Demonstrates how to bound the wildcard character so that the method can
+			only accepts a given class, or any class that extends from it. In the
+			example it is created a getAverage() method that works for any class that
+			inherits from Number.
 			
-		The class includes a simple runner that can be executed as java programs.
+		The classes includes simple runners that can be executed as java programs.
 	</description>
 </project>
 
