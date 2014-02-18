@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>generics</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>003-writing-generic-types</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 003-writing-generic-types</name>
+	<description>
+	TODO
+		Keywords:
+			+ Generics
+
+		This project includes some very simple examples involving the creation of
+		custom generic types.
+			
+		Point:
+			Creates a parameterized Point class that represents a point in space.
+			The parameter is not bound, and therefore accepts any type of argument. 		
+		
+		The classes includes simple runners that can be executed as java programs.
+	</description>
+</project>
+
