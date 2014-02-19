@@ -17,6 +17,7 @@
     <description>
     	Misc Basic Concepts:
     		+ Operator Precedence
+    		+ Statements
     </description>
     
 	<packaging>pom</packaging>
@@ -24,6 +25,7 @@
 		    
 	<modules>
 		<module>001-operator-precedence</module>
+		<module>002-statements</module>
 	</modules>	   
 
 </project>
