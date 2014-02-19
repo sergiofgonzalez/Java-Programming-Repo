@@ -56,6 +56,24 @@ public class BreakStatementTest {
 		assertThat(numIterations, is(70));
 	}
 	
+	@SuppressWarnings("unused")
+	@Test
+	public void testBreakForWithLabel() {
+		int numIterations = 0;
+		for (int i = 0; i < 5; i++) {
+		start:
+			for (int j = 0; j < 2; j++) {
+				for (int k = 0; ; k++) {
+					numIterations++;
+					if (k == 5) {
+						break start;
+					}
+				}
+			}
+		}
+		assertThat(numIterations, is(30));
+	}
+	
 	@Test
 	public void testBreakSwitch() {
 		Random random = new Random();
