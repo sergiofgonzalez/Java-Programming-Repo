@@ -16,13 +16,21 @@
 	<description>
 		Keywords:
 			+ Break Statement
+			+ Continue Statement
+			+ Goto
+			+ Labels
 			
 		This project includes a very simple examples involving java statements.
 			
 		BreakStatement:
 			JUnit to demonstrate how you can use the break statement to get out
-			of an enclosing do, do-while, for or switch.
+			of an enclosing do, do-while, for or switch. Also demonstrates how to
+			use labels with the break statement.
 			
+		ContinueStatement:
+			JUnit to demonstrate how you can use the continue statement to stop the
+			execution of the current iteration of a do, do-while, for or switch. Also
+			demonstrates how to use labels with the continue statement.
 	</description>
 </project>
 
