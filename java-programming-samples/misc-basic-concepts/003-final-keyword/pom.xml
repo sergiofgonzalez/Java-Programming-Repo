@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>misc-basic-concepts</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>003-final-keyword</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 003-final-keyword</name>
+	<description>
+		Keywords:
+			+ final keyword
+			
+		This project includes a very simple examples involving the final keyword.
+			
+		FinalKeywordRunner:
+			Simple java class that demonstrates how you cannot change a variable
+			if you declare it final, but if it is a reference you will be able to 
+			change the state of the object but not where it points to.
+	</description>
+</project>
+

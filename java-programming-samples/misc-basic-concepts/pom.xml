@@ -26,6 +26,7 @@
 	<modules>
 		<module>001-operator-precedence</module>
 		<module>002-statements</module>
+		<module>003-final-keyword</module>
 	</modules>	   
 
 </project>
