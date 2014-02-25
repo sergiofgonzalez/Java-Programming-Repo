@@ -16,6 +16,8 @@
 	<description>
 		Keywords:
 			+ Aliasing
+			+ Passing by Value
+			+ Passing by Reference
 			
 		This project includes a very simple examples involving working with references
 		to objects.
@@ -24,6 +26,14 @@
 			Demonstrates the aliasing effect that shows up when perform an assignment
 			of two object references. After the assignment, one of the object is lost
 			and the two references become alias of the same object.
+			
+		PassObject:
+			Demonstrates the aliasing effect when passing objects by reference to
+			methods.
+			
+		ByValueAndByRefRunner:
+			Serves as a playground class to test aliasing, passing by value and by
+			reference, boxing and unboxing.
 	</description>
 </project>
 
