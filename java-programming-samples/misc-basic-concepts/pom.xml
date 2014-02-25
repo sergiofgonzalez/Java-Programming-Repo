@@ -29,6 +29,7 @@
 		<module>003-final-keyword</module>
 		<module>004-references-to-objects</module>
 		<module>005-object-creation-initialization</module>
+		<module>006-class-metaclass</module>
 	</modules>	   
 
 </project>
