@@ -19,6 +19,7 @@
 			+ Continue Statement
 			+ Goto
 			+ Labels
+			+ Switch statement
 			
 		This project includes a very simple examples involving java statements.
 			
@@ -31,6 +32,9 @@
 			JUnit to demonstrate how you can use the continue statement to stop the
 			execution of the current iteration of a do, do-while, for or switch. Also
 			demonstrates how to use labels with the continue statement.
+			
+		SwitchStatement:
+			Junit to demonstrate how you can use the switch statement with Strings.
 	</description>
 </project>
 
