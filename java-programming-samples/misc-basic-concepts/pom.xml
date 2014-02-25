@@ -27,6 +27,7 @@
 		<module>001-operator-precedence</module>
 		<module>002-statements</module>
 		<module>003-final-keyword</module>
+		<module>004-references-to-objects</module>
 	</modules>	   
 
 </project>
