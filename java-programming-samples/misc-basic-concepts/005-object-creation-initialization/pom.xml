@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>misc-basic-concepts</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>005-object-creation-initialization</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 005-object-creation-initialization</name>
+	<description>
+		Keywords:
+			+ Initialization sequence
+			
+		This project includes very simple examples involving object initialization
+		sequence.
+			
+		InitializationTest:
+			Demonstrates the order of initialization in classes. The examples contain
+			static initialization, instance initialization and constructor.			
+	</description>
+</project>
+
