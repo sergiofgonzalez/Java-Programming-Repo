@@ -21,6 +21,7 @@ public class SwitchStatementTest {
 				
 			case "three":
 				LOGGER.info("three");
+			
 			default :
 				LOGGER.info("option is not one, two or three");
 				break;
