@@ -21,6 +21,8 @@
 			
 		SystemReadUserInputTest:
 			Demonstrates how to read user input using the System class.	
+		
+		SystemPropertiesTest:
+			Demonstrates how to iterate, read and write system properties.
 	</description>
 </project>
-
