@@ -1,6 +1,7 @@
 package org.joolzminer.examples;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,9 +25,20 @@ public class SystemReadUserInputTest {
 		return stringBuilder.toString();
 	}
 	
+	public String getUserInput2() {
+		Scanner scanner = new Scanner(System.in);
+		String userInput = scanner.next();
+		scanner.close();
+		return userInput;
+	}
+	
+	
 	public static void main(String[] args) {
 		SystemReadUserInputTest runner = new SystemReadUserInputTest();
 		System.out.print("Enter your name: ");
 		System.out.println("Hello, " + runner.getUserInput() + "!");
+		
+		System.out.print("Enter your age: ");
+		System.out.println("You're " + runner.getUserInput2() + " years old");
 	}
 }
