@@ -30,6 +30,7 @@
 		<module>004-references-to-objects</module>
 		<module>005-object-creation-initialization</module>
 		<module>006-class-metaclass</module>
+		<module>007-system-class</module>
 	</modules>	   
 
 </project>
