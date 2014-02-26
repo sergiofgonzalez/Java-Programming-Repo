@@ -14,14 +14,25 @@
 
     <name>|-- 001-basic-inheritance</name>
 	<description>
-		TODO
 		Keywords:
-			+ Operator Precedence
+			+ Inheritance
+			+ Constructor calls sequence
+			+ Final methods
+			+ super keyword
 
-		This project includes a very simple examples involving basic concepts.
+		This project includes very simple examples involving inheritance concepts.
 			
-		OperatorPrecedence:
-			JUnit to demonstrate and test Java operator's precedence.			
+		InheritanceConstructorCalls:
+			Demonstrates how the compiler silently inserts a call to the no-args
+			constructor of the base class. It also shows how you can call any base
+			class constructor.
+			
+		FinalMethods:
+			Demonstrates how to prevent a given method to be overridden by using the
+			final keyword on the method declaration.
+			
+		CallingOverriddenMembers:
+			Demonstrates how to use the super keyword to call base class members.			
 	</description>
 </project>
 
