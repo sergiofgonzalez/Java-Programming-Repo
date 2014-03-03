@@ -18,6 +18,8 @@
 			+ parse numbers
 			+ NumberFormat
 			+ Calendar
+			+ DateFormat
+			+ SimpleDateFormat
 						
 		This project includes very simple examples involving the Numbers and Dates
 		
@@ -27,5 +29,8 @@
 		
 		CalendarTestRunner:
 			Demonstrates how top operate with a Calendar instance. 	
+		
+		DateParsingAndFormattingTestRunner:
+			Demonstrates some basic usage of DateFormat and SimpleDateFormat.
 	</description>
 </project>
