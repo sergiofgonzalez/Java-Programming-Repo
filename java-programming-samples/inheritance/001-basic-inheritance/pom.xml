@@ -32,7 +32,12 @@
 			final keyword on the method declaration.
 			
 		CallingOverriddenMembers:
-			Demonstrates how to use the super keyword to call base class members.			
+			Demonstrates how to use the super keyword to call base class members.	
+
+		GenericClassTest:
+			Demonstrates how to write Generic classes to facilitate the creation of
+			implementation classes that conform to a given interface that provide
+			several methods.		
 	</description>
 </project>
 
