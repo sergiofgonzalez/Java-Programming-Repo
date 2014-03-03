@@ -31,6 +31,7 @@
 		<module>005-object-creation-initialization</module>
 		<module>006-class-metaclass</module>
 		<module>007-system-class</module>
+		<module>008-numbers-and-dates</module>
 	</modules>	   
 
 </project>
