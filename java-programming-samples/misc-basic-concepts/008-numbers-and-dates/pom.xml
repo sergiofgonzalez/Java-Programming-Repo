@@ -17,8 +17,15 @@
 		Keywords:
 			+ parse numbers
 			+ NumberFormat
+			+ Calendar
 						
 		This project includes very simple examples involving the Numbers and Dates
-			
+		
+		NumberFormatTest:
+			Demonstrates how to convert a string taken from the user into a double and
+			then format the number according to the default locale.
+		
+		CalendarTestRunner:
+			Demonstrates how top operate with a Calendar instance. 	
 	</description>
 </project>
