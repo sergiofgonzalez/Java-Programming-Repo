@@ -17,6 +17,8 @@
 		Keywords:
 			+ Collections
 			+ Iterator
+			+ Map
+			+ Collection Conversion
 
 		This project includes very simple examples involving Collections.
 			
@@ -24,7 +26,10 @@
 			Demonstrates how to iterate a Collection using an iterator.	
 			
 		CollectionsConversionRunner:
-			Demonstrates how to convert a Set to a List.		
+			Demonstrates how to convert a Set to a List.
+		
+		MapRunner:
+			Demonstrates the keySet, values and entrySet methods of a Map.		
 	</description>
 </project>
 
