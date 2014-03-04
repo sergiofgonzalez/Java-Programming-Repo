@@ -19,6 +19,7 @@
 		<module>misc-basic-concepts</module>
 		<module>inheritance</module>
 		<module>error-handling</module>
+		<module>collections</module>
 		<module>generics</module>
 		<module>inner-classes</module>
 	</modules>	   
