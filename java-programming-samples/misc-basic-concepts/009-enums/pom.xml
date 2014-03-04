@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>misc-basic-concepts</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>009-enums</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 009-enums</name>
+	<description>
+		Keywords:
+			+ enums
+			+ methods with enums
+			+ values()
+						
+		This project includes very simple examples involving enums.
+		
+		EnumTestRunner:
+			Demonstrates how to define and use enums including iterating over its 
+			values, switching on enum values and defining enums with methods.
+	</description>
+</project>
