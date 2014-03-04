@@ -63,6 +63,25 @@ class SimplePrinterImpl extends GenericPrinter {
 	
 }
 
+abstract class DefaultPrinter implements Printable {
+
+	public abstract void print(String document);
+
+	@Override
+	public void wakeUpPrinter() {
+		System.out.println("waking up printer from sleep");
+	}
+
+	@Override
+	public void shutdownPrinter() {
+		System.out.println("shutting down printer");
+	}
+
+	@Override
+	public void alertUser(String message) {
+		System.out.println("user i need your attention: " + message);
+	}		
+}
 
 public class GenericClassTest {
 	
