@@ -23,7 +23,6 @@
 		    
 	<modules>
 		<module>001-basic-inheritance</module>
-		<module>002-generic-classes</module>
 	</modules>	   
 
 </project>
