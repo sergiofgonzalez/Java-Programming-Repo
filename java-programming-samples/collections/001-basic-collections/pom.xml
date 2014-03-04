@@ -21,7 +21,10 @@
 		This project includes very simple examples involving Collections.
 			
 		CollectionsIteratorRunner:
-			Demonstrates how to iterate a Collection using an iterator.			
+			Demonstrates how to iterate a Collection using an iterator.	
+			
+		CollectionsConversionRunner:
+			Demonstrates how to convert a Set to a List.		
 	</description>
 </project>
 
