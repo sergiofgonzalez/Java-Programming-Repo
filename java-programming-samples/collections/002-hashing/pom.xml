@@ -41,10 +41,11 @@
 			to an early end or not.
 			The runner creates a map with 10 instances and when later is queried for
 			the results of an entry that was added there it is properly found.
-
 		
-		MapRunner:
-			Demonstrates the keySet, values and entrySet methods of a Map.		
+		StringHashCode:
+			Demonstrates that two strings with different instance address return the
+			same hash code - hash code in strings is based on contents, not on its
+			memory address.					
 	</description>
 </project>
 
