@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>collections</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-hashing</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 002-hashing</name>
+	<description>
+		TODO
+		Keywords:
+			+ Hash Code, hashCode
+			+ Equals
+			+ Map
+
+		This project includes examples involving hashCode and equals. 
+			
+		SpringDetectorRunner2:
+			Demonstrates how using a custom class as a key in a map causes some 
+			problems while searching for existing instances in a Map.
+			The example defines a map whose key is a groundhog object identified by
+			a number, and whose value is a prediction of whether the winter will come
+			to an early end or not.
+			The runner creates a map with 10 instances and when later is queried for
+			the results of an entry that was added there it is not found because the
+			Groundhog class lacks a proper hashCode and equals.
+			
+		SpringDetectorRunner:
+			Demonstrates how to properly wire a custom class as a key in a map 
+			by overriding hashCode and equals methods.
+			This is a fix for SpringDetectorRunner.
+			The example defines a map whose key is a Groundhog2 object identified by
+			a number, and whose value is a prediction of whether the winter will come
+			to an early end or not.
+			The runner creates a map with 10 instances and when later is queried for
+			the results of an entry that was added there it is properly found.
+
+		
+		MapRunner:
+			Demonstrates the keySet, values and entrySet methods of a Map.		
+	</description>
+</project>
+

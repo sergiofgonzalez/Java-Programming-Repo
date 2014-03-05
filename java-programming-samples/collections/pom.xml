@@ -23,6 +23,7 @@
 		    
 	<modules>
 		<module>001-basic-collections</module>
+		<module>002-hashing</module>
 	</modules>	   
 
 </project>
