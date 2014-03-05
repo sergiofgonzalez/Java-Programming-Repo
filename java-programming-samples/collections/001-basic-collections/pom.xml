@@ -8,11 +8,11 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-    <artifactId>001-collections</artifactId>
+    <artifactId>001-basic-collections</artifactId>
 
     <packaging>jar</packaging>
 
-    <name>|-- 001-collections</name>
+    <name>|-- 001-basic-collections</name>
 	<description>
 		Keywords:
 			+ Collections
