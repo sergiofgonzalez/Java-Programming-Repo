@@ -45,7 +45,12 @@
 		StringHashCode:
 			Demonstrates that two strings with different instance address return the
 			same hash code - hash code in strings is based on contents, not on its
-			memory address.					
+			memory address.	
+			
+		CountedString:
+			Shows how to implement your own equals() and hashCode() for a custom class
+			that holds a String identified with an id that is linked to how many times
+			that particular string has been created.				
 	</description>
 </project>
 
