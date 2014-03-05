@@ -17,12 +17,16 @@
 		Keywords:
 			+ FileSystem, FileSystems
 			+ Path, Paths
+			+ Files
 
 		This project includes very simple examples involving the new IO API.
 			
 		FileSystemAndPathsRunner:
 			Demonstrates how to use some FileSystem and Path methods without creating
-			files or directories.	
+			files or directories.
+		
+		CreateFilesAndDirsRunner:
+			Demonstrates how to create and delete files and directories.	
 	</description>
 </project>
 
