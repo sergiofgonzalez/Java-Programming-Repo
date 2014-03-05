@@ -21,6 +21,7 @@
 		<module>error-handling</module>
 		<module>collections</module>
 		<module>generics</module>
+		<module>input-output</module>
 		<module>inner-classes</module>
 	</modules>	   
 
