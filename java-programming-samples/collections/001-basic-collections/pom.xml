@@ -19,6 +19,8 @@
 			+ Iterator
 			+ Map
 			+ Collection Conversion
+			+ Comparator
+			+ Comparable
 
 		This project includes very simple examples involving Collections.
 			
@@ -29,7 +31,12 @@
 			Demonstrates how to convert a Set to a List.
 		
 		MapRunner:
-			Demonstrates the keySet, values and entrySet methods of a Map.		
+			Demonstrates the keySet, values and entrySet methods of a Map.	
+		
+		ComparatorAndComparableTestRunner:
+			Demonstrates how to create a domain class that implements Comparable, and
+			how to create Comparator instances to compare that domain object with
+			different criteria.	
 	</description>
 </project>
 
