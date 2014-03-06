@@ -20,6 +20,7 @@
 			+ Files
 			+ DirectoryStream
 			+ walkFileTree
+			+ File copy, move
 
 		This project includes very simple examples involving the new IO API.
 			
@@ -33,6 +34,10 @@
 		ListDirContentsRunner:
 			Demonstrates how to list the immediate contents of file, how to manually
 			list recursively a directory, and how to do it with the new JDK7 API.
+			
+		CopyAndMoveFilesRunner:
+			Demonstrates how to copy and move files.
+			
 	</description>
 </project>
 
