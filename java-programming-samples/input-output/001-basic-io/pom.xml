@@ -42,6 +42,9 @@
 			Demonstrates how to read and write small text files using Files.read() and
 			Files.write().
 			
+		FileCompareRunner:
+			Very simplistic file comparison tool that demonstrates how to read binary
+			files.
 	</description>
 </project>
 
