@@ -18,6 +18,8 @@
 			+ FileSystem, FileSystems
 			+ Path, Paths
 			+ Files
+			+ DirectoryStream
+			+ walkFileTree
 
 		This project includes very simple examples involving the new IO API.
 			
@@ -27,6 +29,10 @@
 		
 		CreateFilesAndDirsRunner:
 			Demonstrates how to create and delete files and directories.	
+			
+		ListDirContentsRunner:
+			Demonstrates how to list the immediate contents of file, how to manually
+			list recursively a directory, and how to do it with the new JDK7 API.
 	</description>
 </project>
 
