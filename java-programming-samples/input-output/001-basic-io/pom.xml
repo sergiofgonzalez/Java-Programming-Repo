@@ -45,6 +45,10 @@
 		FileCompareRunner:
 			Very simplistic file comparison tool that demonstrates how to read binary
 			files.
+			
+		BinaryStreamCopyRunner:
+			Very simplistic file copy program that demonstrate how to read binary files
+			and how to write them.
 	</description>
 </project>
 
