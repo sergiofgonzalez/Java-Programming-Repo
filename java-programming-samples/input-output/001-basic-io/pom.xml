@@ -37,6 +37,10 @@
 			
 		CopyAndMoveFilesRunner:
 			Demonstrates how to copy and move files.
+		
+		ReadAndWriteSmallFilesRunner:
+			Demonstrates how to read and write small text files using Files.read() and
+			Files.write().
 			
 	</description>
 </project>
