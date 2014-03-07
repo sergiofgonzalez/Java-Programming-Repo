@@ -80,6 +80,10 @@
 		SeekableByteChannelTestRunner:
 			Demonstrates how to use a ByteBuffer and a SeekableByteChannel to perform
 			random file access operations.
+		
+		ObjectSerializationTestRunner:
+			Demonstrates how to serialize a simple domain object and a string using
+			an ObjectOutputStream and how to deserialize it using an ObjectInputStream.	
 	</description>
 </project>
 
