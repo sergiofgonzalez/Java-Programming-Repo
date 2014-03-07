@@ -61,6 +61,10 @@
 		PrintWriterTestRunner:
 			Demonstrates how to use the PrintWriter wrapped in a BufferedWriter that
 			even specifies the charset.
+		
+		InputStreamReaderTestRunner:
+			Demonstrates how to read a text file with chinese characters using an 
+			InputStreamReader.
 	</description>
 </project>
 
