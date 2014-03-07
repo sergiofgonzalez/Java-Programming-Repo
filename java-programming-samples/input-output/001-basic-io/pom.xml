@@ -21,6 +21,9 @@
 			+ DirectoryStream
 			+ walkFileTree
 			+ File copy, move
+			+ Input streams, output streams
+			+ ByteBuffer
+			+ SeekableByteChannel
 
 		This project includes very simple examples involving the new IO API.
 			
@@ -73,6 +76,10 @@
 		PrintStreamTestRunner:
 			Demonstrates how to redirect System.out to file by creating a PrintStream
 			object.
+		
+		SeekableByteChannelTestRunner:
+			Demonstrates how to use a ByteBuffer and a SeekableByteChannel to perform
+			random file access operations.
 	</description>
 </project>
 
