@@ -69,6 +69,10 @@
 		BufferedReaderTestRunner:
 			Demonstrates how to use a buffered reader to read text files, one line at
 			a time.
+			
+		PrintStreamTestRunner:
+			Demonstrates how to redirect System.out to file by creating a PrintStream
+			object.
 	</description>
 </project>
 
