@@ -49,6 +49,14 @@
 		BinaryStreamCopyRunner:
 			Very simplistic file copy program that demonstrate how to read binary files
 			and how to write them.
+		
+		OutputStreamWriterTestRunner:
+			Demonstrates how you can write unicode characters as Chinese Simplified
+			GB2312 file. If you open the resulting file with an application capable
+			of displaying Chinese GB2312 characters you will see the correct result.
+			Note, how as the file is not written in UTF-8 the bytes written on the
+			output file will be different from the ones you specified. However, in
+			the utf-16 file you would get FE FE followed by the chars you wrote.
 	</description>
 </project>
 
