@@ -57,6 +57,10 @@
 			Note, how as the file is not written in UTF-8 the bytes written on the
 			output file will be different from the ones you specified. However, in
 			the utf-16 file you would get FE FE followed by the chars you wrote.
+			
+		PrintWriterTestRunner:
+			Demonstrates how to use the PrintWriter wrapped in a BufferedWriter that
+			even specifies the charset.
 	</description>
 </project>
 
