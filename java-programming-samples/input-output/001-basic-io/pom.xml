@@ -65,6 +65,10 @@
 		InputStreamReaderTestRunner:
 			Demonstrates how to read a text file with chinese characters using an 
 			InputStreamReader.
+			
+		BufferedReaderTestRunner:
+			Demonstrates how to use a buffered reader to read text files, one line at
+			a time.
 	</description>
 </project>
 
