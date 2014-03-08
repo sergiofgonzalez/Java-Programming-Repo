@@ -23,6 +23,7 @@
 		<module>generics</module>
 		<module>input-output</module>
 		<module>inner-classes</module>
+		<module>desktop-ui</module>
 	</modules>	   
 
 	
