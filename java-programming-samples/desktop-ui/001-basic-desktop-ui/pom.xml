@@ -24,6 +24,10 @@
 		AWTFrameTestRunner:
 			Demonstrates how to create an AWT Frame with components on it. The close
 			button does nothing so you should kill the app to terminate it.
+			
+		JFrameTestRunner:
+			Demonstrates how to create a simple JFrame with a label component on it.
+			The close button terminates the application.
 	</description>
 </project>
 
