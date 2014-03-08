@@ -49,6 +49,10 @@
 			
 		JTextFieldAndJPasswordFieldTestRunner:
 			Demonstrates how to add a JTextField and a JPasswordField to a Swing frame.
+		
+		JTextAreaTestRunner:
+			Demonstrates how to add a JTextArea and a JTextArea in a JScrollPane in a
+			frame.
 	</description>
 </project>
 
