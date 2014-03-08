@@ -28,6 +28,12 @@
 		JFrameTestRunner:
 			Demonstrates how to create a simple JFrame with a label component on it.
 			The close button terminates the application.
+			
+		JFrameTestRunner:
+			Demonstrates how to resize and position a JFrame on the top-right corner
+			of the screen. It also creates a grid layout on the screen with three rows
+			and two columns and add two labels with their corresponding textfields and
+			a button.
 	</description>
 </project>
 
