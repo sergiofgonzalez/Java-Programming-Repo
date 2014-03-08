@@ -53,6 +53,9 @@
 		JTextAreaTestRunner:
 			Demonstrates how to add a JTextArea and a JTextArea in a JScrollPane in a
 			frame.
+			
+		JCheckBoxTestRunner:
+			Demonstrates how to add several JCheckBoxes to a JFrame.
 	</description>
 </project>
 
