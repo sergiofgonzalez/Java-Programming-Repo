@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JList;
 import javax.swing.SwingUtilities;
 
-public class JListTest {
+public class JListTestRunner {
 	private static void constructGUI() {
 		JFrame.setDefaultLookAndFeelDecorated(true);
 		JFrame frame = new JFrame("JList test");
