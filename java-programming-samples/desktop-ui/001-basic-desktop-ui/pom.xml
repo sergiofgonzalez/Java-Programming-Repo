@@ -39,6 +39,10 @@
 			Shows how to extend from JFrame to construct a GUI, instead of creating
 			a static method in your runner class. Typically, complex GUI apps will
 			follow this pattern.
+			
+		JLabelTestRunner:
+			Demonstrates several actions that can be taken on JLabel components such
+			as setting the text and font, using HTML tags, icons, etc.
 	</description>
 </project>
 
