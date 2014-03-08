@@ -10,6 +10,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
+import java.util.List;
 
 
 class Customer implements Serializable {
@@ -30,6 +32,44 @@ class Customer implements Serializable {
 		return "Customer [id=" + id + ", name=" + name + ", address=" + address
 				+ "]";
 	}
+}
+
+class LineItem implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private String item;
+	private int quantity;
+	
+	public LineItem(String item, int quantity) {
+		this.item = item;
+		this.quantity = quantity;
+	}
+	
+	@Override
+	public String toString() {
+		return "LineItem [item=" + item + ", quantity=" + quantity + "]";
+	}	
+}
+
+class Order implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private Customer customer;
+	private String billingAddress;
+	private List<LineItem> items = new ArrayList<>();
+	
+	public Order(Customer customer, String billingAddress) {
+		this.customer = customer;
+		this.billingAddress = billingAddress;
+	}
+	
+	public void addLineItem(LineItem lineItem) {
+		items.add(lineItem);
+	}
+
+	@Override
+	public String toString() {
+		return "Order [customer=" + customer + ", billingAddress="
+				+ billingAddress + ", items=" + items + "]";
+	}	
 }
 
 public class ObjectSerializationTestRunner {
@@ -55,6 +95,29 @@ public class ObjectSerializationTestRunner {
 			
 			System.out.println(info);
 			System.out.println(retrievedCustomer);
+			
+		} catch (IOException | ClassNotFoundException e) {
+			System.out.println("Error deserializing object: " + e);
+		}
+		
+		System.out.println("*** Serialization of a Complex object:");
+		Order order = new Order(customer, "64 White Witch, Kansas");
+		order.addLineItem(new LineItem("iBook", 2));
+		order.addLineItem(new LineItem("Nexus 6", 1));
+		try (	OutputStream outputStream = Files.newOutputStream(path, StandardOpenOption.CREATE);
+				ObjectOutputStream oos = new ObjectOutputStream(outputStream);) {
+			// write first object
+			oos.writeObject(order);
+		} catch (IOException e) {
+			System.out.println("Error serializing object: " + e);
+		}
+
+		System.out.println("*** Deserializing of Complex Object:");
+		try (	InputStream inputStream = Files.newInputStream(path, StandardOpenOption.READ);
+				ObjectInputStream ois = new ObjectInputStream(inputStream);) {
+			Order retrievedOrder = (Order) ois.readObject();
+			
+			System.out.println(retrievedOrder);
 			
 		} catch (IOException | ClassNotFoundException e) {
 			System.out.println("Error deserializing object: " + e);
