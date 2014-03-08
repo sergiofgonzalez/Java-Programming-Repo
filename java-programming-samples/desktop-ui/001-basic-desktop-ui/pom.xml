@@ -56,6 +56,9 @@
 			
 		JCheckBoxTestRunner:
 			Demonstrates how to add several JCheckBoxes to a JFrame.
+		
+		JListTest:
+			Adds a JList to a JFrame.
 	</description>
 </project>
 
