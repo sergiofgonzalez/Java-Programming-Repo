@@ -46,6 +46,9 @@
 			
 		JButtontestRunner:
 			Demonstrates how to create a button with an image icon.
+			
+		JTextFieldAndJPasswordFieldTestRunner:
+			Demonstrates how to add a JTextField and a JPasswordField to a Swing frame.
 	</description>
 </project>
 
