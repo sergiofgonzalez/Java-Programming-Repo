@@ -43,6 +43,9 @@
 		JLabelTestRunner:
 			Demonstrates several actions that can be taken on JLabel components such
 			as setting the text and font, using HTML tags, icons, etc.
+			
+		JButtontestRunner:
+			Demonstrates how to create a button with an image icon.
 	</description>
 </project>
 
