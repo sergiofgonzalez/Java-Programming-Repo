@@ -59,6 +59,9 @@
 		
 		JListTest:
 			Adds a JList to a JFrame.
+		
+		JComboBoxTestRunner:
+			Adds a JComboBox to a JFrame.
 	</description>
 </project>
 
