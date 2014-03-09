@@ -16,6 +16,7 @@
 	<description>		
 		Keywords:
 			+ Layout
+			+ MenuBar, MenuItem
 
 		This project includes very simple examples involving Desktop UI.
 			
@@ -38,6 +39,9 @@
 		NoLayoutTestRunner:
 			Demonstrates how to use absolute positioning in a Swing application by not
 			selecting any layout manager.
+		
+		JMenuTestRunner:
+			Demonstrates how to add a MenuBar and menu items to a JFrame.
 	</description>
 </project>
 
