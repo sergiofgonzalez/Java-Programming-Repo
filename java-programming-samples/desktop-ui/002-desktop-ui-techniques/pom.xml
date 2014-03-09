@@ -26,6 +26,10 @@
 		FlowLayoutTestRunner:
 			Demonstrates how to use the FlowLayout in a JFrame. A couple of text areas
 			are added to the frame.
+			
+		BoxLayoutTestRunner:
+			Demonstrates how to use the BoxLayout in a JFrame to layout the components
+			in a top to bottom fashion.
 	</description>
 </project>
 
