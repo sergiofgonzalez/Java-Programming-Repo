@@ -1,7 +1,6 @@
 package org.joolzminer.examples;
 
 import java.awt.BorderLayout;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
@@ -21,7 +20,7 @@ public class BorderLayoutTestRunner {
 		frame.add(button, BorderLayout.EAST);
 		
 		frame.pack();
-		frame.setVisible(true);
+		frame.setVisible(true);		
 	}
 	
 	public static void main(String[] args) {
