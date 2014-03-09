@@ -34,6 +34,10 @@
 		GridLayoutTestRunner:
 			Demonstrates how to use the GridLayout in a JFrame to layout the components
 			in a grid.
+		
+		NoLayoutTestRunner:
+			Demonstrates how to use absolute positioning in a Swing application by not
+			selecting any layout manager.
 	</description>
 </project>
 
