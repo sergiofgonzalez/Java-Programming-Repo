@@ -67,6 +67,11 @@
 			Demonstrates how to show a JDialog from a frame. The dialog is displayed
 			when the user clicks on a JFrame button. In order to achieve that, an
 			ActionListener is added to the button.
+		
+		JOptionPaneMessageDialogTestRunner:
+			Demonstrates how to display an informational, warning and error JOptionPane
+			message dialog.
+		
 	</description>
 </project>
 
