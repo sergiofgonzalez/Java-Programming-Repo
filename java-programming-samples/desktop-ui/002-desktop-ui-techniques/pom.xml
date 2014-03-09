@@ -30,6 +30,10 @@
 		BoxLayoutTestRunner:
 			Demonstrates how to use the BoxLayout in a JFrame to layout the components
 			in a top to bottom fashion.
+		
+		GridLayoutTestRunner:
+			Demonstrates how to use the GridLayout in a JFrame to layout the components
+			in a grid.
 	</description>
 </project>
 
