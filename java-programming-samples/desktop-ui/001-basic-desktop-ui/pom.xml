@@ -72,6 +72,9 @@
 			Demonstrates how to display an informational, warning and error JOptionPane
 			message dialog.
 		
+		JOptionPaneConfirmDialogTestRunner:
+			Demonstrates how to display a confirm dialog with a question. The response
+			is then captured and showed on the console.
 	</description>
 </project>
 
