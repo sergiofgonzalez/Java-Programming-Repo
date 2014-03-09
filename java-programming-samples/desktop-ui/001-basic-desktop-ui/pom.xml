@@ -79,6 +79,9 @@
 		JOptionPaneInputDialogTestRunner:
 			Demonstrates how to display a JOptionPane to get user input. First
 			displaying a combobox and then a textfield.
+		
+		JFileChooserTestRunner:
+			Demonstrates how to display a JFileChooser from a frame.
 	</description>
 </project>
 
