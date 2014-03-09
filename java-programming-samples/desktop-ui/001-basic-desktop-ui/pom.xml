@@ -75,6 +75,10 @@
 		JOptionPaneConfirmDialogTestRunner:
 			Demonstrates how to display a confirm dialog with a question. The response
 			is then captured and showed on the console.
+		
+		JOptionPaneInputDialogTestRunner:
+			Demonstrates how to display a JOptionPane to get user input. First
+			displaying a combobox and then a textfield.
 	</description>
 </project>
 
