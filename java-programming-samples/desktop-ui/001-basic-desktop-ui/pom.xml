@@ -62,6 +62,11 @@
 		
 		JComboBoxTestRunner:
 			Adds a JComboBox to a JFrame.
+			
+		JDialogTestRunner:
+			Demonstrates how to show a JDialog from a frame. The dialog is displayed
+			when the user clicks on a JFrame button. In order to achieve that, an
+			ActionListener is added to the button.
 	</description>
 </project>
 
