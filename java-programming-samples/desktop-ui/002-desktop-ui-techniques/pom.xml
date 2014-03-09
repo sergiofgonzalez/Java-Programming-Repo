@@ -42,6 +42,9 @@
 		
 		JMenuTestRunner:
 			Demonstrates how to add a MenuBar and menu items to a JFrame.
+			
+		LookAndFeelTestRunner:
+			Demonstrates how to select a Look And Feel in your Swing application.
 	</description>
 </project>
 
