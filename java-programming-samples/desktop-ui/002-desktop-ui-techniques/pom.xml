@@ -22,6 +22,10 @@
 		BorderLayoutTestRunner:
 			Demonstrates how to use the BorderLayout in a JFrame. A couple of
 			components (a button and a texfield are placed in the east and west).
+			
+		FlowLayoutTestRunner:
+			Demonstrates how to use the FlowLayout in a JFrame. A couple of text areas
+			are added to the frame.
 	</description>
 </project>
 
