@@ -23,6 +23,7 @@
 		    
 	<modules>
 		<module>001-basic-desktop-ui</module>
+		<module>002-desktop-ui-techniques</module>
 	</modules>	   
 
 </project>
