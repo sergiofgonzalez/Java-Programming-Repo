@@ -45,6 +45,11 @@
 			
 		LookAndFeelTestRunner:
 			Demonstrates how to select a Look And Feel in your Swing application.
+		
+		ActionListenerTestRunner:
+			Demonstrates how to implement an ActionListener in an application with a
+			JFrame and a JButton. When the JButton is clicked, a MessageDialog is
+			opened with the name of the button that has been clicked.
 	</description>
 </project>
 
