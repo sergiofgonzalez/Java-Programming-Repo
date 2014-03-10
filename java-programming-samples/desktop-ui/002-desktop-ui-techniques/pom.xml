@@ -71,6 +71,11 @@
 			MouseAdapter class and overriding the mouseClicked() method. When any
 			of the mouse buttons are clicked on the JFrame a message is printed on the
 			console.
+			
+		KeyListenerTestRunner:
+			Demonstrates how to implement a KeyListener. The class extends a JFrame and
+			also implements the KeyListener interface. The frame includes a textfield
+			and when the user types on it everyting is turned into uppercase.
 	</description>
 </project>
 
