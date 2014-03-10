@@ -23,6 +23,7 @@
 		    
 	<modules>
 		<module>001-basic-inheritance</module>
+		<module>002-polymorphism</module>
 	</modules>	   
 
 </project>

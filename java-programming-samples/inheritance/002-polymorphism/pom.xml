@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>inheritance</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-polymorphism</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 002-polymorphism</name>
+	<description>
+		Keywords:
+			+ Inheritance
+			+ Polymorphism
+
+		This project includes very simple examples involving polymorphism.
+			
+		PolymorhphismDemo:
+			Demonstrates polymorphism in action. A simple inheritance hierarchy is
+			created involving two classes. Upcasting is used on the definition and
+			it is seen that the runtime type is used when invoking a method that is
+			defined on both the superclass and subclass.
+			It is also shown that when the method is not defined on the actual type,
+			the one that is closer to it in the inheritance hierarchy is the one that 
+			is called.			
+	</description>
+</project>
+
