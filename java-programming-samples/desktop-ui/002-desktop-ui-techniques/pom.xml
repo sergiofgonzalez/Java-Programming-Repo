@@ -50,6 +50,12 @@
 			Demonstrates how to implement an ActionListener in an application with a
 			JFrame and a JButton. When the JButton is clicked, a MessageDialog is
 			opened with the name of the button that has been clicked.
+		
+		MouseEventListener:
+			Demonstrates how to implement a MouseListener by extending the 
+			MouseAdapter class and overriding the mouseClicked() method. When any
+			of the mouse buttons are clicked on the JFrame a message is printed on the
+			console.
 	</description>
 </project>
 
