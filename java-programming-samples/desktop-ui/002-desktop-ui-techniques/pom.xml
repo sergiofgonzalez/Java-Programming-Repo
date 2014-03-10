@@ -56,6 +56,11 @@
 			is implemented as an anonymous inner class. A JFrame is created with a
 			button that once clicked, forces the display of an open file dialog.
 		
+		ActionEventRadioButtonTestRunner:
+			Another example of ActionListener implementation. This time, three radio
+			buttons are created and put in a ButtonGroup. The listener is created as
+			an static inner class.
+		
 		MouseEventListener:
 			Demonstrates how to implement a MouseListener by extending the 
 			MouseAdapter class and overriding the mouseClicked() method. When any
