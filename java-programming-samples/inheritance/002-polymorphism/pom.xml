@@ -28,6 +28,13 @@
 			It is also shown that when the method is not defined on the actual type,
 			the one that is closer to it in the inheritance hierarchy is the one that 
 			is called.			
+			
+		SimpleDrawDemo:
+			Very basic draw application that demonstrates how powerful polymorphism is
+			for UI oriented tasks.
+			A hierarchy of graphical shapes is created, and the method in charge of
+			painting the screen only works with the base class. Additionally, the list
+			of things painted on screen is also declared as a list of shapes.
 	</description>
 </project>
 
