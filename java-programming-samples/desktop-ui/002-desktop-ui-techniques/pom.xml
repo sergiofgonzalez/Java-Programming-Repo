@@ -51,6 +51,11 @@
 			JFrame and a JButton. When the JButton is clicked, a MessageDialog is
 			opened with the name of the button that has been clicked.
 		
+		ActionListenerAnonymousTestRunner:
+			Another example of ActionListener implementation. This time, the listener
+			is implemented as an anonymous inner class. A JFrame is created with a
+			button that once clicked, forces the display of an open file dialog.
+		
 		MouseEventListener:
 			Demonstrates how to implement a MouseListener by extending the 
 			MouseAdapter class and overriding the mouseClicked() method. When any
