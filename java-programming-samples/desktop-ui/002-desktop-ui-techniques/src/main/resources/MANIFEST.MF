@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: sergio.f.gonzalez
+Build-Jdk: 1.7.0_51
+Created-By: Apache Maven 3.1.1
+Archiver-Version: Plexus Archiver
+SplashScreen-Image: splash.jpg
+Main-Class: org.joolzminer.examples.SplashScreenDemo

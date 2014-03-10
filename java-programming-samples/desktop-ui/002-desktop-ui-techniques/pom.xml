@@ -81,6 +81,14 @@
 			Demonstrate how to implement a WindowListener. The class extends a JFrame
 			and handles the windowIconifies event by extending a WindowAdapter. The app
 			prevents the window to be iconified by setting its state back to normal.
+			
+		SplashScreenDemo:
+			Demonstrate how to implement a Splash Screen. The application must be run
+			from the command line using: 
+				java -splash:splash.jpg org.joolzminer.examples.SplashScreenDemo
+			I haven't modified the POM to add extra parameters to the manifest, so to
+			see the splash screen you should open a command window on generated classes
+			and run the command from there.
 	</description>
 </project>
 
