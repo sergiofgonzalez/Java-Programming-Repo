@@ -74,6 +74,9 @@ class Oval implements Shape {
 }
 
 public class SimpleDrawDemo extends JFrame implements ActionListener, MouseListener {
+
+	private static final long serialVersionUID = 1L;
+
 	private int x1, y1, x2, y2;
 	private List<Shape> shapes = new ArrayList<>();
 	String shapeType = "Rectangle";
