@@ -93,6 +93,13 @@
 		SystemTrayDemo:
 			Demonstrates how to implement an application that registers in the system
 			tray with an icon, a tooltip and a popup menu.
+			
+		DesktopDemo:
+			Demonstrates how to use the Desktop class to invoke the OS registered
+			applications to open, edit, print, open URL and mail.
+			It also includes an exit option that displays a confirmation dialog and the
+			close button also displays that confirmation.
+			If an error occurs, a message dialog is displayed.
 	</description>
 </project>
 
