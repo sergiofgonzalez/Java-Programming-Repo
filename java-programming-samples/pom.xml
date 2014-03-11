@@ -25,6 +25,7 @@
 		<module>inner-classes</module>
 		<module>desktop-ui</module>
 		<module>annotations</module>
+		<module>internationalization</module>
 	</modules>	   
 
 	
