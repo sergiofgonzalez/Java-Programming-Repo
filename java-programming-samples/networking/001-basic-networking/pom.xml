@@ -18,8 +18,8 @@
 
 		This project includes very simple examples involving Java networking.
 			
-		a:
-			b.
+		UrlParsingDemo:
+			Demonstrates how to parse a URL using the get methods of the URL class.
 	</description>
 </project>
 
