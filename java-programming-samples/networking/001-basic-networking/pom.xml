@@ -28,6 +28,10 @@
 		ReadWebREsourceUsingURLConnectionDemo:
 			Demonstrates how to read a web resource using URLConnection instead of URL.
 			Also the response headers are read and displayed on the console.
+			
+		WriteWebResourceUsingURLConnectionDemo:
+			Demonstrates how to write a request using URLConnection. 
+			The code has not been tested.
 	</description>
 </project>
 
