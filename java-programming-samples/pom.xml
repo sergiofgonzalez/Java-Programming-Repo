@@ -26,6 +26,7 @@
 		<module>desktop-ui</module>
 		<module>annotations</module>
 		<module>internationalization</module>
+		<module>networking</module>
 	</modules>	   
 
 	
