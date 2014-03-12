@@ -22,8 +22,12 @@
 			Demonstrates how to parse a URL using the get methods of the URL class.
 			
 		ReadWebResourceUsingURLDemo:
-			Demonstrates how read a web resource using the openStream method of the
+			Demonstrates how to read a web resource using the openStream method of the
 			URL class.
+		
+		ReadWebREsourceUsingURLConnectionDemo:
+			Demonstrates how to read a web resource using URLConnection instead of URL.
+			Also the response headers are read and displayed on the console.
 	</description>
 </project>
 
