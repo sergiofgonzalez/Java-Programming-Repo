@@ -20,6 +20,10 @@
 			
 		UrlParsingDemo:
 			Demonstrates how to parse a URL using the get methods of the URL class.
+			
+		ReadWebResourceUsingURLDemo:
+			Demonstrates how read a web resource using the openStream method of the
+			URL class.
 	</description>
 </project>
 
