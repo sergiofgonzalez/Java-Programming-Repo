@@ -32,6 +32,17 @@
 		WriteWebResourceUsingURLConnectionDemo:
 			Demonstrates how to write a request using URLConnection. 
 			The code has not been tested.
+			
+		SocketServerDemo/SocketClientDemo:
+			Demonstrates how to communicate using Socket/ServerSocket classes using
+			a custom protocol.
+			The SocketServerDemo establishes itself on port 1234 and waits for incoming
+			connections. For each message received from the client, the server will 
+			respond with an echo message including the original message and will also
+			display the message on the console. If the client sends the 'bye' command
+			the server will shutdown.
+			The SocketClientDemo will send three messages to localhost:1234 and will
+			print the responses received from the server on the screen.
 	</description>
 </project>
 
