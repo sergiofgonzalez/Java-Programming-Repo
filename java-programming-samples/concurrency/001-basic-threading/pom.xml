@@ -28,6 +28,10 @@
 			a class that is instantiated from another class. The application is
 			implemented as a Swing application with a single button that you can click
 			to create a new thread.
+			
+		RunnableDemo:
+			Demonstrates how to implement a Runnable and start its execution from the
+			main.
 	</description>
 </project>
 
