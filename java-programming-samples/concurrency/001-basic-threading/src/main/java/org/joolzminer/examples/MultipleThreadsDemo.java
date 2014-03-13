@@ -7,6 +7,9 @@ import javax.swing.JLabel;
 import javax.swing.SwingUtilities;
 
 public class MultipleThreadsDemo extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+
 	private JLabel countUpLabel = new JLabel("Count up");
 	private JLabel countDownLabel = new JLabel("Cound down");
 	
