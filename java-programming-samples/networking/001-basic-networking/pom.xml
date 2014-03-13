@@ -43,6 +43,10 @@
 			the server will shutdown.
 			The SocketClientDemo will send three messages to localhost:1234 and will
 			print the responses received from the server on the screen.
+			
+		HttpServer/Request/Response:
+			Demonstrates how to implement an HttpServer. The code can be read and 
+			understood very easily but the program is buggy. It should not be run!
 	</description>
 </project>
 
