@@ -23,23 +23,23 @@ public class Response {
 	
 	public void sendStaticResource() throws IOException {
 		byte[] bytes = new byte[BUFFER_SIZE];
-//		Path path = Paths.get(System.getProperty("user.dir"), "webroot", request.getUri());
-//		if (Files.exists(path)) {
-//			try (InputStream in = Files.newInputStream(path)) {
-//				int bytesRead;
-//				while ((bytesRead = in.read(bytes, 0, BUFFER_SIZE)) != -1) {
-//					out.write(bytes, 0, bytesRead);
-//				} 
-//			} catch (IOException e) {
-//				e.printStackTrace();
-//			}
-//		} else {
+		Path path = Paths.get(System.getProperty("user.dir"), "webroot", request.getUri());
+		if (Files.exists(path)) {
+			try (InputStream in = Files.newInputStream(path)) {
+				int bytesRead;
+				while ((bytesRead = in.read(bytes, 0, BUFFER_SIZE)) != -1) {
+					out.write(bytes, 0, bytesRead);
+				} 
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} else {
 			String errorMessage = "HTTP/1.1 404 File Not Found\r\n"
 					+ "Content-Type: text/html\r\n"
 					+ "Content-Length: 23\r\n"
 					+ "<h1>File Not Found</h1>";
 			
 			out.write(errorMessage.getBytes());
-//		}
+		}
 	}
 }
