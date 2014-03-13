@@ -19,6 +19,9 @@
 
 		This project includes very simple examples involving Threading.
 		
+		ThreadDemo:
+			Demonstrates how to create a simple multithreaded application as a class
+			that extends from Thread.
 	</description>
 </project>
 
