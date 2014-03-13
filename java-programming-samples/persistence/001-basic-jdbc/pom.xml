@@ -13,10 +13,25 @@
     <packaging>jar</packaging>
 
     <name>|-- 001-basic-jdbc</name>
+  	
+  	<dependencies>
+		<!-- JDBC Driver for MySQL -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.29</version>
+		</dependency>
+	</dependencies>  
+    
 	<description>	
 		Keywords:
 
-		This project includes very simple examples involving Persistence.			
+		This project includes very simple examples involving Persistence.
+		
+		SqlToolDemo:
+			Very simple SQL client that connects to a MySQL database test database
+			and lets you issue queries.
+					
 	</description>
 </project>
 
