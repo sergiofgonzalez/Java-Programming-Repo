@@ -21,6 +21,5 @@ public class RunnableDemo implements Runnable {
 		System.out.print("*** starting RunnableDemo Thread: ");
 		thread.start();
 		System.out.println("done");
-	}
-	
+	}	
 }
