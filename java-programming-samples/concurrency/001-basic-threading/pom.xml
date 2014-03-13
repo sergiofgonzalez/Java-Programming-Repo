@@ -32,6 +32,11 @@
 		RunnableDemo:
 			Demonstrates how to implement a Runnable and start its execution from the
 			main.
+			
+		MultipleThreadsDemo:
+			Demonstrates how to implement Swing application with a couple of threads
+			that perform a count up and a count down in the background. Those threads
+			are creates as nested classes within the main swing app.
 	</description>
 </project>
 
