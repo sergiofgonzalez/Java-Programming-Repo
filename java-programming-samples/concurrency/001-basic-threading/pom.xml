@@ -22,6 +22,12 @@
 		ThreadDemo:
 			Demonstrates how to create a simple multithreaded application as a class
 			that extends from Thread.
+			
+		ThreadDemo2:
+			Demonstrates how to create a simple multithreaded application by creating
+			a class that is instantiated from another class. The application is
+			implemented as a Swing application with a single button that you can click
+			to create a new thread.
 	</description>
 </project>
 
