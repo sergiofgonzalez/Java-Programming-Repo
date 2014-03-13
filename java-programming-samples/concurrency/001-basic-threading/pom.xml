@@ -37,6 +37,13 @@
 			Demonstrates how to implement Swing application with a couple of threads
 			that perform a count up and a count down in the background. Those threads
 			are creates as nested classes within the main swing app.
+			
+		ThreadPriorityDemo:
+			Demonstrates how to adjust the priority of a thread. A Swing application
+			is created with a couple of textfields counters that are adjusted by
+			threads created with different priorities.
+			Note that in my machine, both counters run at the same rate although one
+			of the counters is running with different priority. 
 	</description>
 </project>
 
