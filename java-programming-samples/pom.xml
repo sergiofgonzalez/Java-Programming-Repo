@@ -28,6 +28,7 @@
 		<module>internationalization</module>
 		<module>networking</module>
 		<module>persistence</module>
+		<module>concurrency</module>
 	</modules>	   
 
 	
