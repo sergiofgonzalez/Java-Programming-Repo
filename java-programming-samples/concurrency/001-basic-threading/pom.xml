@@ -44,6 +44,13 @@
 			threads created with different priorities.
 			Note that in my machine, both counters run at the same rate although one
 			of the counters is running with different priority. 
+			
+		StopThreadDemo:
+			Demonstrates how to gracefully start and stop a counter thread in a Swing
+			application.
+			The frame consists of a counter label and a start and stop buttons. When
+			the user clicks on start the counter begins counting and it stops when
+			the user clicks on stop.
 	</description>
 </project>
 
