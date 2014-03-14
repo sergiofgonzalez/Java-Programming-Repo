@@ -58,7 +58,11 @@
 			In the application, a thread is started to change the value of a while
 			loop variable. The main() method includes a while that will execute until
 			the value of the condition is changed. As the value is changed by another
-			thread, the main nevers sees it happen, and the application never ends.
+			thread, the main never sees it happen, and the application never ends.
+		
+		ConsistentDemo:
+			Demonstrates how to achieve visibility by synchronizing the methods on 
+			InconsistentDemo.
 	</description>
 </project>
 
