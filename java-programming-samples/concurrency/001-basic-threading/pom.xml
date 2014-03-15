@@ -73,6 +73,11 @@
 			programs simulates a delivery company with one Dispatcher and a Driver.
 			The Dispatcher puts one by one delivery notes in a holder, and the Driver
 			gets it and processes it when available.
+			
+		TimerDemo:
+			Demonstrates how to use the Timer class to schedule a task. The application
+			consists of a frame that displays 5 questions each of one after 10 seconds
+			after the user clicks on the start button.
 	</description>
 </project>
 
