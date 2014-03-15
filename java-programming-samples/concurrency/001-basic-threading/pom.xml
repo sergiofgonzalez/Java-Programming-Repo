@@ -67,6 +67,12 @@
 		VisibilityDemo:
 			Demonstrates how to achieve visibility (without consistency) by declaring 
 			the variable accessed by the thread as volatile.
+		
+		ThreadCoordinationTest:
+			Demonstrates how to coordinate threads using wait/notify idioms. The
+			programs simulates a delivery company with one Dispatcher and a Driver.
+			The Dispatcher puts one by one delivery notes in a holder, and the Driver
+			gets it and processes it when available.
 	</description>
 </project>
 
