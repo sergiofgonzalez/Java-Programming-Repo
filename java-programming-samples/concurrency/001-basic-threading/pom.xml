@@ -61,8 +61,12 @@
 			thread, the main never sees it happen, and the application never ends.
 		
 		ConsistentDemo:
-			Demonstrates how to achieve visibility by synchronizing the methods on 
-			InconsistentDemo.
+			Demonstrates how to achieve visibility and consistency by synchronizing the
+			methods on InconsistentDemo.
+			
+		VisibilityDemo:
+			Demonstrates how to achieve visibility (without consistency) by declaring 
+			the variable accessed by the thread as volatile.
 	</description>
 </project>
 
