@@ -78,6 +78,12 @@
 			Demonstrates how to use the Timer class to schedule a task. The application
 			consists of a frame that displays 5 questions each of one after 10 seconds
 			after the user clicks on the start button.
+		
+		SwingTimerDemo:
+			Demonstrates how to use the Swing Timer class to execute certain code
+			recurrently every given amount of time. The application is the same as in
+			TimerDemo: a quiz application in which a question is presented to the user
+			every 5 seconds.
 	</description>
 </project>
 
