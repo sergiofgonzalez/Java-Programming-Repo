@@ -23,6 +23,7 @@
 		    
 	<modules>
 		<module>001-basic-threading</module>
+		<module>002-concurrency-utils</module>
 	</modules>	   
 
 </project>
