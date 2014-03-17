@@ -26,7 +26,11 @@
 			the counter for a given amount of times and another that decrements the 
 			counter for the same amount of times. Using a thread safe counter, the net 
 			result will always be 0, while using a non-thread safe counter would lead 
-			to inconsistent results.		
+			to inconsistent results.
+			
+		ExecutorDemo/ImageSearchTask:
+			Demonstrates how to use an executor service to crawl the filesystem in
+			search of .jpg files.		
 	</description>
 </project>
 
