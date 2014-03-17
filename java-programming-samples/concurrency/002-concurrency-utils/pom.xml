@@ -16,10 +16,17 @@
   	
 	<description>	
 		Keywords:
+		+ Atomic variables
 
-		This project includes very simple examples involving Threading.
+		This project includes very simple examples involving Concurrency Utilities.
 		
-		
+		AtomicCounterDemo:
+			Demonstrates how to implement a thread safe counter class using an
+			AtomicInteger. The application creates two threads: one that increments
+			the counter for a given amount of times and another that decrements the 
+			counter for the same amount of times. Using a thread safe counter, the net 
+			result will always be 0, while using a non-thread safe counter would lead 
+			to inconsistent results.		
 	</description>
 </project>
 
