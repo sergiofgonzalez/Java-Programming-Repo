@@ -17,6 +17,9 @@
 	<description>	
 		Keywords:
 		+ Atomic variables
+		+ Callable
+		+ Future
+		+ Executor, ExecutorService
 
 		This project includes very simple examples involving Concurrency Utilities.
 		
@@ -30,7 +33,13 @@
 			
 		ExecutorDemo/ImageSearchTask:
 			Demonstrates how to use an executor service to crawl the filesystem in
-			search of .jpg files.		
+			search of .jpg files.	
+		
+		FileCounter:
+			Demonstrates how to use Callable and Future. The application creates a
+			Callable that counts the file under a given directory. The main application
+			submits two of this Callables in parallel to count the files in two
+			directories.	
 	</description>
 </project>
 
