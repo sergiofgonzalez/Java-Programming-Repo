@@ -29,6 +29,7 @@
 		<module>networking</module>
 		<module>persistence</module>
 		<module>concurrency</module>
+		<module>security</module>
 	</modules>	   
 
 	
