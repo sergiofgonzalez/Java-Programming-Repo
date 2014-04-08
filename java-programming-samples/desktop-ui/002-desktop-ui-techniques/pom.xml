@@ -39,6 +39,9 @@
 		NoLayoutTestRunner:
 			Demonstrates how to use absolute positioning in a Swing application by not
 			selecting any layout manager.
+			
+		GroupLayoutTestRunner:
+			Demonstrates how to use the GroupLayout layout to create a Find frame.
 		
 		JMenuTestRunner:
 			Demonstrates how to add a MenuBar and menu items to a JFrame.
