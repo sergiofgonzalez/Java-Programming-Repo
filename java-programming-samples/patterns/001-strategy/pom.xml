@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>patterns</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>001-strategy</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 001-strategy</name>
+  	
+	<description>
+		Design Pattern:
+			Strategy:
+				The Strategy pattern defines a family of algorithms, encapsulates each
+				one and makes them interchangeable.
+				Strategy lets the algorithm vary independently from the clients that
+				use it.
+			
+		
+		Design Principles:
+			+ Identify the aspects of your application that vary and separate them from
+			what stays the same
+			
+			+ Program to an interface, not to an implementation.
+
+			+ Favor composition over inheritance.
+			
+		Keywords:
+			+ Implementing behaviors as classes
+			+ Programming to interfaces
+			+ The Strategy Pattern
+
+		MiniDuckSimRunner:
+			The runner of application that demonstrates how to apply the Strategy
+			design pattern.
+			The application consists of an application that lets you model different
+			types of ducks: real ducks (like MallardDuck) which fly and quack, and
+			other types of ducks (like ModelDuck or RubberDuck) which share only some
+			behaviors with real ducks.
+			There is defined an abstract base class that encapsulates what stays the
+			same for all ducks: all ducks swim and all duck identify themselves.
+			For the behaviors that are not constant across the different ducks, instead
+			of inheritance, the Strategy is applied:
+				+ Duck is given two behaviors, Fly and Quack
+				+ Interfaces are defined for those behaviors
+				+ Several implementations are given
+			Besides, to allow dynamic adjustment of those behaviors the base class is
+			provided with setter methods for those behaviors.
+			That way, it is possible to have ducks with several different behaviors but
+			that share the same implementation (the degree of reuse is very high).
+			As a last note, the runner uses the program to interface principle so that
+			concrete ducks are not instantiated.
+			
+
+	</description>
+</project>
+
