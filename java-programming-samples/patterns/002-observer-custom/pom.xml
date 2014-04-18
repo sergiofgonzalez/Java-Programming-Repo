@@ -36,9 +36,10 @@
 			+ Favor composition over inheritance.
 			
 		Keywords:
-			+ Implementing behaviors as classes
-			+ Programming to interfaces
-			+ The Strategy Pattern
+			+ Publish-Subscribe
+			+ Pushing data to subscribers
+			+ Decoupling an object from the data it needs
+			+ The Observer pattern
 
 		WeatherStationRunner:
 			The runner of application that demonstrates how to apply the Observer
