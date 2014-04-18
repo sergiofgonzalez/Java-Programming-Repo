@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>patterns</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>004-decorator</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 004-decorator</name>
+  	
+	<description>
+		Design Pattern:
+			Decorator:
+				The Decorator pattern attaches additional responsibilities to an object
+				dynamically. Decorators provide a flexible alternative to subclassing
+				for extending functionality.
+				
+				A little more elaboration:
+				+ Decorators have the same supertype as the objects they decorate.
+				+ You can use one or more decorators to wrap an object.
+				+ The decorator can be used in place of the original (wrapped) object.
+				+ The decorator adds its own behavior either before and/or after
+				delegating to the object it decorates to do the rest of the job.
+				+ Objects can be decorated at any time, even at runtime. 
+				
+				Typically, you will have an abstract class playing the role of a
+				Component and a set of existing classes that extend from it.
+				Then, you will define a Decorator which also extends from the Component
+				and that has to be implemented by concrete decorators.
+			
+		Design Principles:
+			+ Open-Closed Principle: classes should be open for extension, but closed
+			for modification.
+			This means that classes should provide extension points so new behavior
+			can be easily added; but the existing code of the class should not be
+			open to modifications.
+			This principle creates more resilient classes that are flexible enough to
+			take on new functionality to meet changing requirements.
+
+			+ Favor composition over inheritance.
+			
+		WeatherStationRunner:
+			The runner of application that demonstrates how to apply the Observer
+			design pattern. In this case, the pattern leverages the JDK Observable
+			class and Observer interface (not custom built).
+			
+			The application consists of a WeatherData object that contains several
+			measures about the weather: temp, humidity and pressure. This object is
+			the Subject (or Observable object) of the Observer pattern.
+			
+			Then, there are several displays for the Weather Station: one with the
+			current conditions, one with statistics, one with forecast and one with
+			the feels-like temperature. Those are the Observers of the Observer 
+			pattern.
+			
+			The displays registers themselves to the Subject and get notified whenever
+			a change in the measurements is performed.
+			In this implementation, it is the Observer the one that "pulls" the changes
+			from the Observable object when they are notified that a change has occurred.	
+	</description>
+</project>
+

@@ -25,6 +25,7 @@
 		<module>001-strategy</module>
 		<module>002-observer-custom</module>
 		<module>003-observer-jdk</module>
+		<module>004-decorator</module>
 	</modules>	   
 
 </project>
