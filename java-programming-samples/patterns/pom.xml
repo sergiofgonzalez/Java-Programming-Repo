@@ -23,6 +23,7 @@
 		    
 	<modules>
 		<module>001-strategy</module>
+		<module>002-observer</module>
 	</modules>	   
 
 </project>
