@@ -2,13 +2,12 @@ package org.joolzminer.examples.displays;
 
 import org.joolzminer.examples.WeatherData;
 import org.joolzminer.examples.observer.Observer;
-import org.joolzminer.examples.observer.Subject;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
 	private float temperature;
 	private float humidity;
-	private Subject weatherData;
+	private WeatherData weatherData;
 	
 	public CurrentConditionsDisplay(WeatherData weatherData) {
 		this.weatherData = weatherData;

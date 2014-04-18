@@ -23,7 +23,8 @@
 		    
 	<modules>
 		<module>001-strategy</module>
-		<module>002-observer</module>
+		<module>002-observer-custom</module>
+		<module>003-observer-jdk</module>
 	</modules>	   
 
 </project>

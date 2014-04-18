@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>patterns</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-observer-custom</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 002-observer-custom</name>
+  	
+	<description>
+		Design Pattern:
+			Observer:
+				The Observer pattern defines a one-to-many dependency between objects
+				so that when one object changes state, all of its dependents are 
+				notified and updated automatically.
+				
+				In this pattern there is a subject object that holds a state that is
+				interesting to a set of dependent objects known as Observers.
+				Observers subscribe that they want to be notified of the subject state
+				changes - it is a publish-subscribe mechanism.
+			
+		
+		Design Principles:
+			+ Loose coupling: strive for loosely coupled designs between objects that
+			interact, because it minimizes the interdependency between objects.
+			
+			+ Program to an interface, not to an implementation.
+
+			+ Favor composition over inheritance.
+			
+		Keywords:
+			+ Implementing behaviors as classes
+			+ Programming to interfaces
+			+ The Strategy Pattern
+
+		WeatherStationRunner:
+			The runner of application that demonstrates how to apply the Observer
+			design pattern. In this case, the pattern is custom-implemented (not using
+			the JDK provided Observer).
+			
+			The application consists of a WeatherData object that contains several
+			measures about the weather: temp, humidity and pressure. This object is
+			the Subject of the Observer pattern.
+			
+			Then, there are several displays for the Weather Station: one with the
+			current conditions, one with statistics, one with forecast and one with
+			the feels-like temperature. Those are the Observers of the Observer 
+			pattern.
+			
+			The displays registers themselves to the Subject and get notified whenever
+			a change in the measurements is performed.
+			In this implementation, it is the Subject the one that "pushes" the changes
+			to all registered Observers when a modification is performed.	
+	</description>
+</project>
+

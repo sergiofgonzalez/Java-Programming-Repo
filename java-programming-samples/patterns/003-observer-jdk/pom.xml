@@ -8,11 +8,11 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-    <artifactId>002-observer</artifactId>
+    <artifactId>003-observer-jdk</artifactId>
 
     <packaging>jar</packaging>
 
-    <name>|-- 002-observer</name>
+    <name>|-- 003-observer-jdk</name>
   	
 	<description>
 		Design Pattern:
@@ -21,10 +21,11 @@
 				so that when one object changes state, all of its dependents are 
 				notified and updated automatically.
 				
-				In this pattern there is a subject object that holds a state that is
-				interesting to a set of dependent objects known as Observers.
-				Observers subscribe that they want to be notified of the subject state
-				changes - it is a publish-subscribe mechanism.
+				In this pattern there is a Subject or Observable object that holds a 
+				state that is interesting to a set of dependent objects known as 
+				Observers.
+				Observers subscribe that they want to be notified of the Observable 
+				state changes - it is a publish-subscribe mechanism.
 			
 		
 		Design Principles:
@@ -42,12 +43,12 @@
 
 		WeatherStationRunner:
 			The runner of application that demonstrates how to apply the Observer
-			design pattern. In this case, the pattern is custom-implemented (not using
-			the JDK provided Observer).
+			design pattern. In this case, the pattern leverages the JDK Observable
+			class and Observer interface (not custom built).
 			
 			The application consists of a WeatherData object that contains several
 			measures about the weather: temp, humidity and pressure. This object is
-			the Subject of the Observer pattern.
+			the Subject (or Observable object) of the Observer pattern.
 			
 			Then, there are several displays for the Weather Station: one with the
 			current conditions, one with statistics, one with forecast and one with
@@ -56,8 +57,8 @@
 			
 			The displays registers themselves to the Subject and get notified whenever
 			a change in the measurements is performed.
-			In this implementation, it is the Subject the one that "pushes" the changes
-			to all registered Observers when a modification is performed.	
+			In this implementation, it is the Observer the one that "pulls" the changes
+			from the Observable object when they are notified that a change has occurred.	
 	</description>
 </project>
 
