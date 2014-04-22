@@ -45,24 +45,24 @@
 
 			+ Favor composition over inheritance.
 			
-		WeatherStationRunner:
-			The runner of application that demonstrates how to apply the Observer
-			design pattern. In this case, the pattern leverages the JDK Observable
-			class and Observer interface (not custom built).
+		StarbuzzCoffeeDecoratorTest:
+			This JUnit serves as the runner for the objects that demonstrates how to 
+			apply the Decorator design pattern.
 			
-			The application consists of a WeatherData object that contains several
-			measures about the weather: temp, humidity and pressure. This object is
-			the Subject (or Observable object) of the Observer pattern.
+			The application solves the problem of a coffee-shop in which many types of
+			coffees and condiments are available for purchase.
+			Typically, a client selects a type of coffee (Espresso, House Blend, ...)
+			and then one or more condiments such as a Milk, Soy, Mocha, etc.
 			
-			Then, there are several displays for the Weather Station: one with the
-			current conditions, one with statistics, one with forecast and one with
-			the feels-like temperature. Those are the Observers of the Observer 
-			pattern.
-			
-			The displays registers themselves to the Subject and get notified whenever
-			a change in the measurements is performed.
-			In this implementation, it is the Observer the one that "pulls" the changes
-			from the Observable object when they are notified that a change has occurred.	
+			The application is structured with a simple Beverage base class and a set
+			of subclasses that extend Beverage to represent the types of coffees. Then,
+			a CondimentDecorator is defined, which also extends from Beverage, and a
+			set of concrete classes that extend from CondimentDecorator and that 
+			represent the condiments. These actual condiments provide a constructor
+			that takes a Beverage so that they can decorate coffees and other 
+			condiments to represent double-lattes and things like that. 
+
+			The JUnit demonstrates how to create complicated coffees.	
 	</description>
 </project>
 
