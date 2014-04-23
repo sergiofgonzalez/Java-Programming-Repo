@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>patterns</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>005-decorator-with-sizes</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 005-decorator-with-sizes</name>
+  	
+	<description>
+		Design Pattern:
+			Decorator:
+				The Decorator pattern attaches additional responsibilities to an object
+				dynamically. Decorators provide a flexible alternative to subclassing
+				for extending functionality.
+				
+				A little more elaboration:
+				+ Decorators have the same supertype as the objects they decorate.
+				+ You can use one or more decorators to wrap an object.
+				+ The decorator can be used in place of the original (wrapped) object.
+				+ The decorator adds its own behavior either before and/or after
+				delegating to the object it decorates to do the rest of the job.
+				+ Objects can be decorated at any time, even at runtime. 
+				
+				Typically, you will have an abstract class playing the role of a
+				Component and a set of existing classes that extend from it.
+				Then, you will define a Decorator which also extends from the Component
+				and that has to be implemented by concrete decorators.
+			
+		Design Principles:
+			+ Open-Closed Principle: classes should be open for extension, but closed
+			for modification.
+			This means that classes should provide extension points so new behavior
+			can be easily added; but the existing code of the class should not be
+			open to modifications.
+			This principle creates more resilient classes that are flexible enough to
+			take on new functionality to meet changing requirements.
+
+			+ Favor composition over inheritance.
+			
+		The application solves the problem of a coffee-shop in which many types of
+		coffees and condiments are available for purchase, but with a modification
+		over the 004- project: now we have different sizes for the Beverages and
+		with different prices for each size.
+		Typically, a client selects a type of coffee (Espresso, House Blend, ...),
+		a size and then one or more condiments such as a Milk, Soy, Mocha, etc.
+			
+		The application is structured with a simple Beverage base class and a set
+		of subclasses that extend Beverage to represent the types of coffees. Then,
+		a CondimentDecorator is defined, which also extends from Beverage, and a
+		set of concrete classes that extend from CondimentDecorator and that 
+		represent the condiments. These actual condiments provide a constructor
+		that takes a Beverage so that they can decorate coffees and other 
+		condiments to represent double-lattes and things like that.
+		The size modification is handled by including a getSize() and setSize()
+		methods on the Beverage base class, adding a new constructor to each
+		Beverage that is aware of sizes, and in the actual Condiments by using
+		the getSize() method on the inner beverage when calculating the price.
+		
+		Thus, when you ask for the price of a given beverage, there is a sequence
+		of calls that ultimately asks for the size of the coffee.
+						
+		StarbuzzCoffeeDecoratorTest:
+			This JUnit serves as the runner for the objects that demonstrates how to 
+			apply the Decorator design pattern.						 
+
+			The JUnit demonstrates how to create complicated coffee orders with the 
+			size always set to Medium.	
+
+		StarbuzzCoffeeSizeTest:
+			This JUnit serves as the runner for the objects that demonstrates how to 
+			apply the Decorator design pattern being aware of the size.						 
+
+			The JUnit demonstrates how to create complicated coffee orders with 
+			different sizes.				
+	</description>
+</project>
+
