@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>patterns</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>006-decorator-java-io</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 006-decorator-java-io</name>
+  	
+	<description>
+		Design Pattern:
+			Decorator:
+				The Decorator pattern attaches additional responsibilities to an object
+				dynamically. Decorators provide a flexible alternative to subclassing
+				for extending functionality.
+				
+				A little more elaboration:
+				+ Decorators have the same supertype as the objects they decorate.
+				+ You can use one or more decorators to wrap an object.
+				+ The decorator can be used in place of the original (wrapped) object.
+				+ The decorator adds its own behavior either before and/or after
+				delegating to the object it decorates to do the rest of the job.
+				+ Objects can be decorated at any time, even at runtime. 
+				
+				Typically, you will have an abstract class playing the role of a
+				Component and a set of existing classes that extend from it.
+				Then, you will define a Decorator which also extends from the Component
+				and that has to be implemented by concrete decorators.
+			
+		Design Principles:
+			+ Open-Closed Principle: classes should be open for extension, but closed
+			for modification.
+			This means that classes should provide extension points so new behavior
+			can be easily added; but the existing code of the class should not be
+			open to modifications.
+			This principle creates more resilient classes that are flexible enough to
+			take on new functionality to meet changing requirements.
+
+			+ Favor composition over inheritance.
+			
+		The application defines a concrete decorator for converting inputStream 
+		contents into lower case. The decorator extends from FilterInputStream and
+		allows using any InputStream in the constructor, so that it allows buffering.
+						
+		LowerCaseConverterInputStreamIntegrationTest:
+			This JUnit serves as the runner for the demonstration of the decorator
+			implementation. It does not provide any assertion.				 
+	</description>
+</project>
+

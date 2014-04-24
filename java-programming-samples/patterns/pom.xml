@@ -27,6 +27,7 @@
 		<module>003-observer-jdk</module>
 		<module>004-decorator</module>
 		<module>005-decorator-with-sizes</module>
+		<module>006-decorator-java-io</module>
 	</modules>	   
 
 </project>
