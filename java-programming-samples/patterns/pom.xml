@@ -20,6 +20,17 @@
     
 	<packaging>pom</packaging>
 	
+	<properties>
+		<apache.commons.lang.version>3.1</apache.commons.lang.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${apache.commons.lang.version}</version>
+		</dependency>
+	</dependencies>
 		    
 	<modules>
 		<module>001-strategy</module>
@@ -28,6 +39,7 @@
 		<module>004-decorator</module>
 		<module>005-decorator-with-sizes</module>
 		<module>006-decorator-java-io</module>
+		<module>007-factory-simple-factory-idiom</module>
 	</modules>	   
 
 </project>

@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>patterns</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>007-factory-simple-factory-idiom</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 007-factory-simple</name>
+  	
+	<description>
+		Programming Idiom:
+			Simple Factory:
+				Create a class that is responsible for the creation of concrete domain 
+				objects that extends a base class.
+
+		The application consists in a Pizza store that features different kinds of 
+		pies: chess, clam, pepperoni, etc. 
+		The Pizza Store functionality is concentrated in a single class that includes
+		the different steps involved in the delivery of the Pizza: preparation, baking,
+		cutting, boxing, etc.
+		To do that, that class receives a PizzaFactory when instantiated, which allows
+		to have the same functionality no matter what type of Pizza is being ordered.
+		This leverages the SimplePizzaFactory class that concentrates the creation
+		of concrete Pizzas in a single class - this idiom, is known as the 
+		SimpleFactory programming idiom.
+						
+		PizzaStoreIntegrationTest:
+			This JUnit serves as the runner for the demonstration of SimpleFactory
+			and the PizzaStore classes. It does not provide any assertion.				 
+	</description>
+</project>
+
