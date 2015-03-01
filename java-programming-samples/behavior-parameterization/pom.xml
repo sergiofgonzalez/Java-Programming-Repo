@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+    							http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+	    <groupId>org.joolzminer</groupId>
+	    <artifactId>java-programming-samples</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+    </parent>	
+	
+    <artifactId>behavior-parameterization</artifactId>
+    
+    <name>|- behavior-parameterization</name>
+    <description>
+    	Java 8: Behavior Parameterization
+    </description>
+    
+	<packaging>pom</packaging>
+	
+		    
+	<modules>
+		<module>001-passing-code-with-named-classes</module>
+		<module>002-passing-code-with-anonymous-classes</module>
+		<module>003-passing-code-with-lambdas</module>
+		<module>004-passing-code-with-lambdas-generic</module>
+		<module>005-lambdas-with-existing-interfaces</module>
+	</modules>	   
+
+</project>

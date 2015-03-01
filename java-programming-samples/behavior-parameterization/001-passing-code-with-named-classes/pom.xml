@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>behavior-parameterization</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>001-passing-code-with-named-classes</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 001-passing-code-with-named-classes</name>
+	<description>	
+		Keywords:
+			+ Behavior Parameterization
+			+ Predicates
+			+ Named classes
+
+		This project includes a very simple example involving behavior parameterization 
+		using named classes.
+			
+		PredicatesRunner:
+            Demonstrates how to implement behavior parameterization using named classes.
+            In the example, an ApplePredicate and an AppleFormatter interfaces are 
+            defined, and several implementations are given.
+            These implementations are passed to methods defined to filter and pretty
+            print a list of Apple objects.    			
+
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

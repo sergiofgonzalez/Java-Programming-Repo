@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>behavior-parameterization</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>004-passing-code-with-lambdas-generic</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 004-passing-code-with-lambdas-generic</name>
+	<description>	
+		Keywords:
+			+ Behavior Parameterization
+			+ Predicates
+			+ Lambdas, Lambda expressions
+
+		This project includes a very simple example involving behavior parameterization 
+		using parameterized classes and lambda expressions.
+			
+		PredicatesRunner:
+            Demonstrates how to use lambda expressions to implement generic filter and
+            formatting operations.                			
+
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+
