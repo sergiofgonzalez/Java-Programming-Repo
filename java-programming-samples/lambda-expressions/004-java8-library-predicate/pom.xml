@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>lambda-expressions</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>004-java8-library-predicate</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 004-java8-library-predicate</name>
+	<description>	
+        Keywords:
+            + Lambdas, lambda expressions
+            + Predicate, Consumer and Function Functional Interfaces.
+
+        This project includes several simple examples regarding the Java 8 functional
+        interfaces Predicate, Consumer and Function.
+            
+        PredicateLambdaRunner:
+            Demonstrate how to leverage the Predicate functional interface from Java 8
+            library to perform filtering on numbers and strings.
+        
+        ConsumerLambdaRunner:
+            Demonstrate how to leverage the Consumer functional interface from Java 8
+            library to perform an operation on each of the elements of a collection.
+            
+        FunctionLambdaRunner:
+            Demonstrate how to leverage the Function functional interface from Java 8
+            library to perform mapping on collections of numbers and strings.                      
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

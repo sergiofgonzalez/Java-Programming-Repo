@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+    							http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+	    <groupId>org.joolzminer</groupId>
+	    <artifactId>java-programming-samples</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+    </parent>	
+	
+    <artifactId>lambda-expressions</artifactId>
+    
+    <name>|- lambda-expressions</name>
+    <description>
+    	Java 8: Lambda Expressions
+    </description>
+    
+	<packaging>pom</packaging>
+	
+		    
+	<modules>
+		<module>001-anonymous-vs-lambdas-for-comparator</module>
+		<module>002-anonymous-vs-lambdas-for-runnable</module>
+		<module>003-execute-around-pattern-with-lambdas</module>
+		<module>004-java8-library-predicate</module>
+		<module>005-lambdas-and-local-variables</module>
+		<module>006-method-references</module>
+		<module>007-lambdas-and-method-refs-into-practice</module>
+		<module>008-lambdas-composition</module>
+	</modules>	   
+
+</project>

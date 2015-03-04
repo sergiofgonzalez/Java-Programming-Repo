@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>lambda-expressions</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>006-method-references</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 006-method-references</name>
+	<description>	
+        Keywords:
+            + Lambdas, lambda expressions
+            + Method References
+
+        This project includes simple examples that illustrates the use of method
+        references.
+            
+        MethodReferenceKindsRunner:
+            Illustrate with a stupid example how to create method references for
+            lambdas of expressions of the three kinds (static methods, instance methods
+            applied to the arguments, and instance methods applies to particular instances).
+            
+        SortingMethodReferenceRunner:
+            Illustrates how to use use a method reference when sorting a list.       
+            
+        ConstructorMethodReferencesRunner:
+            Illustrates how to use method references with constructors.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

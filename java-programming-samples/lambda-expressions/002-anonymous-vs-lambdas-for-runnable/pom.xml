@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>lambda-expressions</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-anonymous-vs-lambdas-for-runnable</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 002-anonymous-vs-lambdas-for-runnable</name>
+	<description>	
+        Keywords:
+            + Lambdas, lambda expressions
+            + Anonymous classes
+
+        This project includes a very simple example that compares the definition of
+        a Runnable implementation using lambdas and anonymous classes.
+            
+        LambdasRunner:
+            Implements the Runnable interface named classes, anonymous inner classes
+            and variables that hold a lambda expression and an inline lambda.		
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+
