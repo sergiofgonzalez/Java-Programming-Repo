@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>streams</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>004-filtering-and-slicing</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 004-filtering-and-slicing</name>
+	<description>	
+		Keywords:
+			+ Streams
+			+ Filtering using Predicates
+			+ Filtering unique Elements
+			+ Truncating Elements (limit)
+			+ Skipping Elements
+
+		This project includes very simple examples that illustrate how to 
+		perform different operations with streams.
+		
+        FilteringWithAPredRunner:
+            Illustrates the use of filter() with a predicate.
+            
+        FilteringUniqueElemsRunner:
+            Illustrates the use of distinct() to filter unique elements.
+            
+        TruncatingAStreamRunner:
+            Illustrates the use of limit() to truncate a stream.
+            
+        SkippingElemsRunner:
+            Illustrates the use of skip() to discard the first elements from
+            a stream.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

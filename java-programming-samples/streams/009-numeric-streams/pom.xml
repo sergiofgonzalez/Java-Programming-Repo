@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>streams</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>009-numeric-streams</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 009-numeric-streams</name>
+	<description>	
+		Keywords:
+			+ Streams
+			+ IntStream, LongStream, DoubleStream
+			+ sum, min, max
+			+ boxed
+			+ iterate, generate
+
+		This project includes very simple examples that illustrate how to 
+		perform different operations with streams.
+		
+        NumericStreamRunner:
+            Illustrates how to operate with the specialized version of streams
+            in order to use the operations sum, min and max.
+            It also illustrates how to use the boxed method to turn an 
+            specialized version of stream into a regular stream.
+            
+        RangesRunner:
+            Illustrates how to create ranges in specialized streams
+            
+        PythagoreanTriples:
+            Illustrates how to create pythagorean triples. The example is very
+            useful to understand things like boxing, mapToObj, flatMapping, etc.
+            
+        BuildingStreamsRunner:
+            Illustrates how to build stream from different sources like a discrete
+            number of arguments of a given type, an array, a file or a custom function
+            using the methods iterate and generate.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

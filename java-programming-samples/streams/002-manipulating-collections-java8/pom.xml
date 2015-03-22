@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>streams</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-manipulating-collections-java8</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 002-manipulating-collections-java8</name>
+	<description>	
+		Keywords:
+			+ Streams
+			+ filter, map, limit, collect, sorted
+
+		This project includes a very simple example that illustrates some of the
+		capabilities of Java 8 streams.
+			
+		StreamsRunner:
+            Illustrate how to leverage Streams to:
+            + return a list with the name of dishes of a
+              menu which are low caloric dishes. 
+            + return a list with the name of the top 3 most
+              caloric dishes.  
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

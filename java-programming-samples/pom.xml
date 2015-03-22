@@ -33,6 +33,7 @@
 		<module>patterns</module>
 		<module>behavior-parameterization</module>
 		<module>lambda-expressions</module>
+		<module>streams</module>
 	</modules>	   
 
 	
