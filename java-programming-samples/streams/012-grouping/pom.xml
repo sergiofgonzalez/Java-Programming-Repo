@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>streams</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>012-grouping</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 012-grouping</name>
+	<description>	
+		Keywords:
+			+ Streams
+			+ Collectors
+			+ groupingBy
+			+ multi level maps, mapping
+
+		This project includes very simple examples that illustrate how to 
+		perform different operations with streams.
+		
+        GroupingRunner:
+            Illustrates the use of Collectors.groupingBy to perform single-level
+            groupings of streams.
+            There is a sample that performs the grouping with a method reference
+            and another one that is passed a lambda to perform a more complicated
+            classification. 
+        
+        MultiLevelGroupingRunner:
+            Illustrates how to perform multi-level grouping, how to adapt the
+            result of Collectors and how to map the results.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

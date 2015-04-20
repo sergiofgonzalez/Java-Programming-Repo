@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>streams</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>011-reducing-and-summarizing</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 011-reducing-and-summarizing</name>
+	<description>	
+		Keywords:
+			+ Streams
+			+ Collectors
+			+ counting, maxBy, minBy, summingInt, averagingInt, summarizingInt, joining
+
+		This project includes very simple examples that illustrate how to 
+		perform different operations with streams.
+		
+        SummarizingAndReducingRunner:
+            Illustrates the use of several predefined collectors to do
+            summarizing and reduction of streams:
+                + Collectors.counting()
+                + Collectors.maxBy() and Collectors.minBy()
+                + Collectors.summingInt()
+                + Collectors.averagingInt()
+                + Collectors.summarizingInt() to obtain general stats on numeric streams
+                + Collectors.joining()
+                
+        ToListUsingReduceRunner:
+            Illustrates how to implement imperatively the Collectors.toList method.
+            This is done as an example and should not be used in production code.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

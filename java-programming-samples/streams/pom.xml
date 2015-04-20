@@ -31,7 +31,13 @@
 		<module>007-reducing</module>
 		<module>008-stream-operations-practice-traders</module>
 		<module>009-numeric-streams</module>
-		
+		<module>010-grouping-transactions-with-collectors</module>
+		<module>011-reducing-and-summarizing</module>
+		<module>012-grouping</module>
+		<module>013-partitioning</module>
+		<module>014-custom-collectors</module>
+		<module>015-parallel-streams</module>
+		<module>016-fork-join-framework</module>
+		<module>017-spliterator</module>
 	</modules>	   
-
 </project>

@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>streams</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>010-grouping-transactions-with-collectors</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 010-grouping-transactions-with-collectors</name>
+	<description>	
+		Keywords:
+			+ Streams
+			+ Collectors
+
+		This project includes very simple examples that illustrate how to 
+		perform different operations with streams.
+		
+        TransactionGroupingRunner:
+            The scenario illustrates how streams can simplify typical grouping
+            operations. In this example, it is demonstrated how you can group
+            a list of monetary transactions by currencies using a single line!
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

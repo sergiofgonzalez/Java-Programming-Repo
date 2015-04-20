@@ -10,6 +10,7 @@ import java.util.stream.Stream;
 
 public class BuildingStreamsRunner {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) throws IOException {
 		// Build a stream from a sequence of values
 		Stream<String> stream = Stream.of("Java", "8", "Lambdas", "In", "Action");

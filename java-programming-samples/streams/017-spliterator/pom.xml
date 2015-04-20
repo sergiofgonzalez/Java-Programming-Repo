@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>streams</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>017-spliterator</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 017-spliterator</name>
+	<description>	
+		Keywords:
+			+ Streams
+			+ Parallel Streams
+
+		This project includes very simple examples that illustrate how to 
+		perform different operations with streams.
+		
+        CountWordsRunner:
+            Illustrates how to implement a custom Spliterator that splits a sentence in its
+            characters to perform the count of words.
+            The example also includes an iterative version of the algorithm.
+
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

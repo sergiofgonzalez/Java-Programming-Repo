@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>streams</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>014-custom-collectors</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 014-custom-collectors</name>
+	<description>	
+		Keywords:
+			+ Streams
+			+ Collectors
+
+		This project includes very simple examples that illustrate how to 
+		perform different operations with streams.
+		
+        ToListCollectorRunner:
+            Illustrates how to implement a custom ToListCollector and how to use
+            the overloaded collect method that accepts the three functions that
+            make the collector.
+        
+       SpecializedPrimeNumberGeneratorRunner:
+            Illustrates how to implement a custom Collector to provide a very
+            efficient implementation of a prime number generator.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+
