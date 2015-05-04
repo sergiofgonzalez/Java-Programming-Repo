@@ -34,6 +34,10 @@
 		<module>behavior-parameterization</module>
 		<module>lambda-expressions</module>
 		<module>streams</module>
+		<module>functional</module>
+		<module>async</module>
+		<module>datetime-api</module>
+		<module>zzzsandbox</module>
 	</modules>	   
 
 	

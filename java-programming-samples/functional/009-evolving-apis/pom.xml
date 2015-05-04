@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>functional</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>009-evolving-apis</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 009-evolving-apis</name>
+	<description>	
+        Keywords:
+            + Functional Programming, Java 8
+            + default methods
+
+        This project includes a very simple example that illustrates how to evolve
+        an API declared in an interface.
+            
+        GameRunner:
+            In the example, it is demonstrated how you can evolve an API defined in
+            a library (Resizable) without breaking the client code still based on
+            the initial version of the API.
+            This is achieved using default methods.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

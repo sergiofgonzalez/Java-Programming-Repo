@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+    							http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+	    <groupId>org.joolzminer</groupId>
+	    <artifactId>java-programming-samples</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+    </parent>	
+	
+    <artifactId>functional</artifactId>
+    
+    <name>|- functional</name>
+    <description>
+    	Java 8: Functional Techniques
+    </description>
+    
+	<packaging>pom</packaging>
+	
+		    
+	<modules>
+		<module>001-conditional-deferred-execution</module>
+		<module>002-execute-around</module>
+		<module>003-strategy</module>
+		<module>004-template-method</module>
+		<module>005-observer</module>
+		<module>006-chain-of-responsibility</module>
+		<module>007-factory</module>
+		<module>008-testing-lambdas</module>
+		<module>009-evolving-apis</module>
+		<module>010-multiple-inheritance</module>
+		<module>011-optional-class</module>
+	</modules>	   
+</project>

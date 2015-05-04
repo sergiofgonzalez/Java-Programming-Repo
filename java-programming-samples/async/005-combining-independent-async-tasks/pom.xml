@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>async</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>005-combining-independent-async-tasks</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 005-combining-independent-async-tasks</name>
+	<description>	
+		Keywords:
+			+ Future
+			+ CompletableFuture
+			+ thenCombine()
+
+		This project includes a very simple example that illustrates the
+		combination of independent asynchronous calls.
+			
+		BestPriceFinderRunner:
+            Demonstrates how to combine independent async calls using the
+            thenCombine method. In the example, it is assumed that the shops
+            return the price in a currency different from the one that should
+            be displayed to the user. As a consequence, for each price, it is
+            necessary to contact an external exchange service to be able to
+            compute the price in the correct currency.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

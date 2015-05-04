@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>functional</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>001-conditional-deferred-execution</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 001-conditional-deferred-execution</name>
+	<description>	
+		Keywords:
+			+ Functional Programming, Java 8
+			+ Conditional Deferred Execution Pattern
+
+		This project includes a very simple example that illustrates how to implement
+		conditional deferred execution using lambdas.
+			
+		CustomLoggerRunner:
+            In the example, a simple custom logger is built from scratch. It is first
+            demonstrated that methods such as isLoggable() should not be exposed to the
+            client code because it makes the code less readable.
+            
+            Then, it is demonstrated how to perform lazy evaluation of the message by
+            providing a log() method that accepts a lambda. This lambda is only evaluated
+            if the log level is the appropriate one.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

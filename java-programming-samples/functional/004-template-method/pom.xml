@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>functional</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>004-template-method</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 004-template-method</name>
+	<description>	
+        Keywords:
+            + Functional Programming, Java 8
+            + Template Method Pattern
+
+        This project includes a very simple example that illustrates how to implement
+        the Template Method pattern using lambdas.
+            
+        OnlineBankingRunner:
+            In the example, an OnlineBanking class is defined with a processCustomer()
+            method that accepts a Consumer. The consumer logic is applied when the 
+            fixed part of the algorithm is complete, thus implementing the template
+            method pattern.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

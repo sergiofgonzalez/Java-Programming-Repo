@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>async</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-completable-futures</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 002-completable-futures</name>
+	<description>	
+		Keywords:
+			+ Future
+			+ CompletableFuture
+
+		This project includes a very simple example that illustrates the
+		use of Futures (introduced by Java 5) and CompletableFutures to 
+		perform async programming.
+			
+		BestPriceFinderRunner:
+            Illustrates how to work with async code using Futures and 
+            CompletableFutures from both the client and provider POV.
+            Error management and the supplyAsync factory method is also
+            illustrated.
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+

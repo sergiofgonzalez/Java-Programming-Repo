@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+    							http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+	    <groupId>org.joolzminer</groupId>
+	    <artifactId>java-programming-samples</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+    </parent>	
+	
+    <artifactId>async</artifactId>
+    
+    <name>|- async</name>
+    <description>
+    	Java 8: Async Programming
+    </description>
+    
+	<packaging>pom</packaging>
+	
+		    
+	<modules>
+		<module>001-java5-futures</module>
+		<module>002-completable-futures</module>
+		<module>003-async-vs-parallel</module>
+		<module>004-pipelining-dependent-async-tasks</module>
+		<module>005-combining-independent-async-tasks</module>
+		<module>006-reacting-to-async-calls-completion</module>
+	</modules>	   
+</project>

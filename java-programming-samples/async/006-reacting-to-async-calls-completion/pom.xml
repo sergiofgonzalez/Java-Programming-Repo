@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>async</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>006-reacting-to-async-calls-completion</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 006-reacting-to-async-calls-completion</name>
+	<description>	
+		Keywords:
+			+ Future
+			+ CompletableFuture
+			+ thenAccept()
+
+		This project includes a very simple example that illustrates how
+		to register a Consumer that will be invoked as soon as the 
+		CompletableFuture is available.
+			
+		BestPriceFinderRunner:
+            Demonstrates how to use the thenAccept() method to perform the
+            display of the price that is computed async as soon as it is 
+            available, without waiting for the prices from all the shops
+            to be available. 
+	</description>
+	
+    <properties>
+        <!-- JDK compiler options -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>	
+</project>
+
